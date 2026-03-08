@@ -9,11 +9,11 @@
 	z-index: 100;
 	top: 11px;
 	right: 32px;
-	background: transparent url(/wp-content/themes/tamashi/framework/admin/assets/css/img/delete.png) no-repeat top left;
+	background: transparent url(../../../../../../../wp-content/themes/tamashi/framework/admin/assets/css/img/delete.png) no-repeat top left;
 }
 
 .eltd-delete-button:hover{
-	background: transparent url(/wp-content/themes/tamashi/framework/admin/assets/css/img/delete.png) no-repeat bottom left;
+	background: transparent url(../../../../../../../wp-content/themes/tamashi/framework/admin/assets/css/img/delete.png) no-repeat bottom left;
 	cursor: pointer;
 }
 

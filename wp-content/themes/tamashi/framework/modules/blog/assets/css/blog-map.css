@@ -378,31 +378,31 @@
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-play button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-play button {
   width: 39px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/play.png");
+  background-image: url("../../../../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/play.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-pause button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-pause button {
   width: 39px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/pause.png");
+  background-image: url("../../../../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/pause.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-stop button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-stop button {
   width: 39px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/stop.png");
+  background-image: url("../../../../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/stop.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-mute button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-mute button {
   width: 30px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/sound.png");
+  background-image: url("../../../../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/sound.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-unmute button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-unmute button {
   width: 30px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/mute.png");
+  background-image: url("../../../../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/mute.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time {

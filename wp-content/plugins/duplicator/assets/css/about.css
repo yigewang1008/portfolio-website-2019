@@ -358,19 +358,19 @@
 
 #dup-admin-about .dup-admin-about-section-table table p.features-full {
     padding-left: 30px;
-    background-image: url(/wp-content/plugins/duplicator/assets/img/about/icon-full.svg);
+    background-image: url(../../../../../wp-content/plugins/duplicator/assets/img/about/icon-full.svg);
 }
 
 #dup-admin-about .dup-admin-about-section-table table p.features-none {
     padding-left: 30px;
-    background-image: url(/wp-content/plugins/duplicator/assets/img/about/icon-none.svg);
+    background-image: url(../../../../../wp-content/plugins/duplicator/assets/img/about/icon-none.svg);
 }
 
 #dup-admin-about .dup-admin-about-section-table table p.features-partial {
     padding-left: 30px;
     background-position: -3px 0;
     background-size: 23px auto;
-    background-image: url(/wp-content/plugins/duplicator/assets/img/about/icon-partial.svg);
+    background-image: url(../../../../../wp-content/plugins/duplicator/assets/img/about/icon-partial.svg);
 }
 
 #dup-admin-about .dup-admin-about-section-table .dup-admin-about-section-hero-main {

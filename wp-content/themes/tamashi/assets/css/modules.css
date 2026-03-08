@@ -806,7 +806,7 @@ blockquote cite {
 }
 
 .eltd-preload-background {
-  background: transparent url("/wp-content/themes/tamashi/assets/img/preload_pattern.png") repeat scroll inherit !important;
+  background: transparent url("../../../../../wp-content/themes/tamashi/assets/img/preload_pattern.png") repeat scroll inherit !important;
   -webkit-animation-name: preload-background;
   -webkit-animation-duration: 40s;
   -webkit-animation-iteration-count: infinite;
@@ -6668,7 +6668,7 @@ p.form-submit:hover:after {
 
 @font-face {
   font-family: 'Quentin';
-  src: url("/wp-content/themes/tamashi/assets/fonts/Quentin.ttf") format("truetype");
+  src: url("../../../../../wp-content/themes/tamashi/assets/fonts/Quentin.ttf") format("truetype");
 }
 
 /* ==========================================================================
@@ -13515,31 +13515,31 @@ aside.eltd-sidebar .widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown-click,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-play button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-play button {
   width: 39px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/play.png");
+  background-image: url("../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/play.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-pause button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-pause button {
   width: 39px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/pause.png");
+  background-image: url("../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/pause.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-stop button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-stop button {
   width: 39px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/stop.png");
+  background-image: url("../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/stop.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-mute button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-mute button {
   width: 30px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/sound.png");
+  background-image: url("../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/sound.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-unmute button,
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-unmute button {
   width: 30px;
-  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/mute.png");
+  background-image: url("../../../../../wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/mute.png");
 }
 
 .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time {
@@ -24861,7 +24861,7 @@ html.fp-enabled,
 }
 
 .eltd-image-gallery.eltd-image-behavior-grayscale .eltd-ig-image img {
-  filter: url("/wp-content/plugins/eltd-core/assets/css/img/desaturate.svg#grayscale");
+  filter: url("../../../../../wp-content/plugins/eltd-core/assets/css/img/desaturate.svg#grayscale");
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: gray;
@@ -24994,7 +24994,7 @@ html.fp-enabled,
 }
 
 .eltd-image-with-text-holder.eltd-image-behavior-grayscale .eltd-iwt-image img {
-  filter: url("/wp-content/plugins/eltd-core/assets/css/img/desaturate.svg#grayscale");
+  filter: url("../../../../../wp-content/plugins/eltd-core/assets/css/img/desaturate.svg#grayscale");
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: gray;
@@ -26224,7 +26224,7 @@ html.fp-enabled,
 }
 
 .eltd-single-image-holder.eltd-image-behavior-grayscale .eltd-si-inner img {
-  filter: url("/wp-content/plugins/eltd-core/assets/css/img/desaturate.svg#grayscale");
+  filter: url("../../../../../wp-content/plugins/eltd-core/assets/css/img/desaturate.svg#grayscale");
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: gray;
