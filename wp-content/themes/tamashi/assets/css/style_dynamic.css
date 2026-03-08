@@ -1,0 +1,63 @@
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_design_styles function */
+body { font-family: Arial;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_design_styles function */
+body, .eltd-content { background-color: #ffffff;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_design_styles function */
+::selection { background: #ddebff;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_design_styles function */
+::-moz-selection { background: #ddebff;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_content_styles function */
+.eltd-content .eltd-content-inner > .eltd-container > .eltd-container-inner { padding-top: 50px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_h1_styles function */
+h1 { font-family: Arial;font-weight: 600;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_h2_styles function */
+h2 { color: #494949;font-family: Arial;font-size: 27px;font-style: normal;font-weight: 600;text-transform: capitalize;margin-top: 0px;margin-bottom: 0px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_h3_styles function */
+h3 { color: #494949;font-family: Arial;font-size: 20px;font-style: normal;font-weight: 600;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_h4_styles function */
+h4 { color: #444444;font-family: Arial;font-size: 20px;font-style: normal;font-weight: 600;text-transform: capitalize;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_h5_styles function */
+h5 { color: #545454;font-family: Arial;font-size: 20px;font-style: normal;font-weight: 500;letter-spacing: 1px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_h6_styles function */
+h6 { color: #444444;font-family: Arial;font-size: 13px;font-style: normal;font-weight: 600;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_text_styles function */
+p { color: #333333;font-family: Sorts Mill Goudy;font-size: 18px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_link_styles function */
+a, p a { color: #0a0a0a;font-style: normal;text-decoration: none;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_link_hover_styles function */
+a:hover, p a:hover { color: #0000ff;text-decoration: underline;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/assets/custom-styles/general-custom-styles.php tamashi_elated_link_hover_styles function */
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #0000ff;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/framework/modules/header/types/top-header/admin/custom-styles/top-header-custom-styles.php tamashi_elated_header_top_bar_styles function */
+.eltd-top-bar { height: 150px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/framework/modules/header/types/top-header/admin/custom-styles/top-header-custom-styles.php tamashi_elated_header_top_bar_styles function */
+.eltd-top-bar .eltd-logo-wrapper a { max-height: 150px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/framework/modules/header/types/top-header/admin/custom-styles/top-header-custom-styles.php tamashi_elated_header_top_bar_styles function */
+.eltd-top-bar-background { height: 195px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/themes/tamashi/framework/modules/header/admin/custom-styles/header-custom-styles.php tamashi_elated_header_menu_area_styles function */
+.eltd-page-header .eltd-menu-area { height: 0px !important;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/plugins/eltd-core/shortcodes/uncovering-sections/functions.php eltd_core_set_uncovering_sections_header_top_custom_styles function */
+.eltd-uncovering-section-on-page:not(.eltd-header-bottom).eltd-header-top-enabled .eltd-top-bar { top: -150px;}
+
+/* generated in /home3/yigedesi/public_html/wp-content/plugins/eltd-core/shortcodes/uncovering-sections/functions.php eltd_core_set_uncovering_sections_header_top_custom_styles function */
+.eltd-uncovering-section-on-page:not(.eltd-header-bottom).eltd-header-top-enabled:not(.eltd-sticky-header-appear) .eltd-page-header { top: 150px;}
+

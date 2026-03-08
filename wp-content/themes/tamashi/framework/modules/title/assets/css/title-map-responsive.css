@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Title responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Title responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-title-holder.eltd-title-full-width .eltd-grid {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-title-holder.eltd-has-bg-image {
+    height: auto !important;
+    padding: 0 !important;
+    background-image: none !important;
+  }
+  .eltd-title-holder.eltd-has-bg-image .eltd-title-image {
+    display: block;
+  }
+  .eltd-title-holder.eltd-has-bg-image .eltd-title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100% !important;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+/* ==========================================================================
+   Title responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Centered Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-title-holder.eltd-centered-type .eltd-page-subtitle {
+    padding: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Centered Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-title-holder.eltd-standard-with-breadcrumbs-type .eltd-title-info,
+  .eltd-title-holder.eltd-standard-with-breadcrumbs-type .eltd-breadcrumbs-info {
+    display: block;
+    width: 100%;
+  }
+  .eltd-title-holder.eltd-standard-with-breadcrumbs-type .eltd-breadcrumbs-info {
+    margin: 10px 0 0;
+    text-align: initial;
+    white-space: inherit;
+  }
+}
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map-responsive.css.map */

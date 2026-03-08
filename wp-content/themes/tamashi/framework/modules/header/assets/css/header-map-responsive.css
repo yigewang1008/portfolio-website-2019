@@ -1,0 +1,260 @@
+/* ==========================================================================
+   Header responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltd-drop-down .wide .second > .inner > ul {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-page-header {
+    display: none;
+  }
+  .eltd-drop-down .wide .second > .inner > ul {
+    width: 768px;
+  }
+}
+
+/* ==========================================================================
+   Header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Fixed header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltd-boxed .eltd-page-header .eltd-fixed-wrapper.fixed {
+    width: 1000px;
+  }
+}
+
+/* ==========================================================================
+   Fixed header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical - Sliding responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1490px) and (max-width: 1650px) {
+  .eltd-header-vertical-sliding .eltd-grid,
+  .eltd-header-vertical-sliding .eltd-container-inner,
+  .eltd-header-vertical-sliding .eltd-row-grid-section {
+    width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 1314px) and (max-width: 1490px) {
+  .eltd-header-vertical-sliding .eltd-grid,
+  .eltd-header-vertical-sliding .eltd-container-inner,
+  .eltd-header-vertical-sliding .eltd-row-grid-section {
+    width: 1035px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1314px) {
+  .eltd-header-vertical-sliding .eltd-grid,
+  .eltd-header-vertical-sliding .eltd-container-inner,
+  .eltd-header-vertical-sliding .eltd-row-grid-section {
+    width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltd-header-vertical-sliding .eltd-404-page .eltd-content {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-table-cell {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer {
+    width: 28.5%;
+  }
+  .eltd-header-vertical-sliding .eltd-vertical-alignment-top .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder .eltd-vertical-menu-holder-nav-inner {
+    padding: 170px 0px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-header-vertical-sliding .eltd-vertical-menu-area {
+    display: none;
+  }
+  .eltd-header-vertical-sliding .eltd-content,
+  .eltd-header-vertical-sliding footer {
+    padding-left: 0;
+  }
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1025px) {
+  .eltd-header-vertical .eltd-404-page .eltd-content {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-header-vertical .eltd-vertical-menu-area {
+    display: none;
+  }
+  .eltd-header-vertical .eltd-content,
+  .eltd-header-vertical footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltd-header-vertical .eltd-grid,
+  .eltd-header-vertical .eltd-container-inner,
+  .eltd-header-vertical .eltd-row-grid-section {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltd-header-vertical .eltd-grid,
+  .eltd-header-vertical .eltd-container-inner,
+  .eltd-header-vertical .eltd-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-header-vertical .eltd-grid,
+  .eltd-header-vertical .eltd-container-inner,
+  .eltd-header-vertical .eltd-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-header-vertical .eltd-grid,
+  .eltd-header-vertical .eltd-container-inner,
+  .eltd-header-vertical .eltd-row-grid-section {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-header-vertical .eltd-grid,
+  .eltd-header-vertical .eltd-container-inner,
+  .eltd-header-vertical .eltd-row-grid-section {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-header-vertical .eltd-grid,
+  .eltd-header-vertical .eltd-container-inner,
+  .eltd-header-vertical .eltd-row-grid-section {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltd-header-vertical .eltd-grid,
+  .eltd-header-vertical .eltd-container-inner,
+  .eltd-header-vertical .eltd-row-grid-section {
+    width: 90%;
+  }
+}
+
+/* ==========================================================================
+   Header Vertical responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-mobile-header {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Mobile header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltd-boxed .eltd-page-header .eltd-sticky-header {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 818px;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 92%;
+  }
+}
+
+/* ==========================================================================
+   Sticky header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-top-bar > .eltd-vertical-align-containers {
+    padding: 0 40px;
+  }
+  .eltd-top-bar-in-grid-padding .eltd-top-bar .eltd-grid .eltd-vertical-align-containers {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-top-bar {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Top header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=header-map-responsive.css.map */

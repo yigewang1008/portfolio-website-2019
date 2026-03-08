@@ -1,0 +1,192 @@
+/* ==========================================================================
+   Side area styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+# Side area style - begin
+========================================================================== */
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener,
+.eltd-light-header .eltd-top-bar .eltd-side-menu-button-opener {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener.opened, .eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener:hover,
+.eltd-light-header .eltd-top-bar .eltd-side-menu-button-opener.opened,
+.eltd-light-header .eltd-top-bar .eltd-side-menu-button-opener:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener,
+.eltd-dark-header .eltd-top-bar .eltd-side-menu-button-opener {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener.opened, .eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener:hover,
+.eltd-dark-header .eltd-top-bar .eltd-side-menu-button-opener.opened,
+.eltd-dark-header .eltd-top-bar .eltd-side-menu-button-opener:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+.eltd-side-menu-button-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-title {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+  color: currentColor;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 5px;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon .eltd-side-area-circle {
+  position: absolute;
+  top: 0;
+  height: 5px;
+  width: 5px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon .eltd-side-area-circle.eltd-circle-1 {
+  left: 0;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon .eltd-side-area-circle.eltd-circle-2 {
+  left: 10px;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon .eltd-side-area-circle.eltd-circle-3 {
+  left: 20px;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.eltd-side-menu-button-opener:hover .eltd-side-menu-icon .eltd-side-area-circle.eltd-circle-1 {
+  left: 20px;
+}
+
+.eltd-side-menu-button-opener:hover .eltd-side-menu-icon .eltd-side-area-circle.eltd-circle-3 {
+  left: 0;
+}
+
+.eltd-side-menu-button-opener.opened {
+  color: #272727;
+}
+
+.eltd-side-menu {
+  position: fixed;
+  top: 0;
+  right: -505px;
+  width: 505px;
+  height: 100%;
+  min-height: 100%;
+  padding: 135px 85px 36px;
+  background-color: #272727;
+  text-align: left;
+  overflow: hidden;
+  visibility: hidden;
+  z-index: 9999;
+  -webkit-backface-visibility: hidden;
+  box-sizing: border-box;
+  box-shadow: -3px 0 3px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.eltd-side-menu .eltd-close-side-menu-holder {
+  position: absolute;
+  top: 36px;
+  right: 52px;
+  z-index: 1000;
+}
+
+.admin-bar .eltd-side-menu .eltd-close-side-menu-holder {
+  top: 68px;
+}
+
+.eltd-side-menu a.eltd-close-side-menu {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+.eltd-side-menu a.eltd-close-side-menu span {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-side-menu a.eltd-close-side-menu span:before {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-side-menu .eltd-social-text-widget-holder > span {
+  position: relative;
+}
+
+.eltd-side-menu .eltd-social-text-widget-holder > span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  border-bottom: 1px solid currentcolor;
+  -webkit-transition: width 0.3s ease-out;
+  -moz-transition: width 0.3s ease-out;
+  transition: width 0.3s ease-out;
+}
+
+.eltd-side-menu .eltd-social-text-widget-holder > span:hover:after {
+  width: 100%;
+}
+
+.eltd-side-menu-slide-from-right.eltd-right-side-menu-opened .eltd-wrapper .eltd-cover {
+  z-index: 3000;
+}
+
+.eltd-side-menu-slide-from-right.eltd-right-side-menu-opened .eltd-side-menu {
+  right: 0;
+  visibility: visible;
+}
+
+.eltd-side-menu-slide-from-right .eltd-wrapper .eltd-cover {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* ==========================================================================
+# Side area style - end
+========================================================================== */
+/* ==========================================================================
+   Side area styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=sidearea-map.css.map */

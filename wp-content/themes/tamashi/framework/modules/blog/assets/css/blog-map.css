@@ -1,0 +1,2035 @@
+/* ==========================================================================
+   Blog styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Blog Common style - begin
+   ========================================================================== */
+.eltd-blog-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 40px;
+  clear: both;
+}
+
+.eltd-blog-holder article {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltd-blog-holder article.sticky .eltd-post-title a {
+  color: #272727;
+  border-bottom: 2px solid #272727;
+}
+
+.eltd-blog-holder article .eltd-post-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-blog-holder article .eltd-post-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.eltd-blog-holder article .eltd-post-image img {
+  display: block;
+}
+
+.eltd-blog-holder article .eltd-post-image-background {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.eltd-blog-holder article .eltd-post-image-background a {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.eltd-blog-holder article .eltd-post-image-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  line-height: 1;
+  color: #fff;
+}
+
+.eltd-blog-holder article .eltd-post-text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltd-blog-holder article .eltd-post-title {
+  margin: 0;
+}
+
+.eltd-blog-holder article .eltd-post-excerpt-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 15px 0 0;
+}
+
+.eltd-blog-holder article .eltd-post-excerpt-holder p {
+  margin: 0;
+}
+
+.eltd-blog-holder article .eltd-post-read-more-button {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.eltd-blog-holder article .eltd-post-excerpt:after {
+  content: '...';
+}
+
+.eltd-blog-holder article .eltd-more-link-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 15px 0 0;
+}
+
+.eltd-blog-holder article .eltd-post-info {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-blog-holder article .eltd-post-info > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  color: currentColor;
+}
+
+.eltd-blog-holder article .eltd-post-info > * a {
+  color: inherit;
+}
+
+.eltd-blog-holder article .eltd-post-info-top {
+  margin-bottom: 13px;
+}
+
+.eltd-blog-holder article .eltd-post-info-top > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 14px 0 0;
+  color: #272727;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.eltd-blog-holder article .eltd-post-info-top > div:after {
+  content: '/';
+  position: absolute;
+  top: 0;
+  right: -2px;
+}
+
+.eltd-blog-holder article .eltd-post-info-top > div a {
+  color: inherit;
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom {
+  padding-top: 43px;
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-left,
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-right {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-left > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: italic;
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-left > *:after {
+  content: '/';
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-left > *:last-child:after {
+  display: none;
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-right .eltd-social-share-holder.eltd-text .eltd-social-title {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  .eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-left,
+  .eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-right {
+    width: 50%;
+  }
+  .eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-left {
+    float: left;
+  }
+  .eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-right {
+    text-align: right;
+    float: right;
+  }
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-right > div {
+  margin-left: 17px;
+  display: inline-block;
+}
+
+.eltd-blog-holder article .eltd-post-info-bottom .eltd-post-info-bottom-right > div:first-child {
+  margin-left: 0;
+}
+
+.eltd-blog-holder article.format-link .eltd-post-text {
+  padding: 65px 100px 77px;
+  border: 1px solid #131313;
+  text-align: center;
+}
+
+.eltd-blog-holder article.format-link .eltd-post-text-main {
+  display: block;
+}
+
+.eltd-blog-holder article.format-link .eltd-post-mark {
+  display: block;
+  width: auto;
+  margin-bottom: 17px;
+}
+
+.eltd-blog-holder article.format-link .eltd-post-mark .eltd-link-mark {
+  padding-top: 5px;
+  font-size: 50px;
+  transform: rotateZ(-30deg);
+  -webkit-transform: rotateZ(-30deg);
+  -moz-transform: rotateZ(-30deg);
+  display: inline-block;
+  color: #272727;
+}
+
+.eltd-blog-holder article.format-link .eltd-post-link-holder {
+  display: block;
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-blog-holder article.format-link .eltd-post-text {
+    padding: 65px 20px 77px;
+  }
+}
+
+.eltd-blog-holder article.format-quote .eltd-post-text {
+  padding: 93px 100px 77px;
+  border: 1px solid #131313;
+}
+
+.eltd-blog-holder article.format-quote .eltd-post-text-main {
+  display: block;
+  text-align: center;
+}
+
+.eltd-blog-holder article.format-quote .eltd-post-mark {
+  width: auto;
+  margin-bottom: 17px;
+}
+
+.eltd-blog-holder article.format-quote .eltd-post-mark .eltd-quote-mark {
+  padding-top: 5px;
+  font-size: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+.eltd-blog-holder article.format-quote .eltd-post-link-holder {
+  display: block;
+  text-align: center;
+}
+
+.eltd-blog-holder article.format-quote .eltd-post-author {
+  display: inline-block;
+  margin-bottom: 23px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.eltd-blog-holder article.format-quote .eltd-quote-author {
+  color: #272727;
+  display: inline-block;
+  margin-top: 26px;
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-blog-holder article.format-quote .eltd-post-text {
+    padding: 93px 20px 77px;
+  }
+}
+
+.eltd-blog-holder article.format-gallery .eltd-post-image {
+  width: 100%;
+}
+
+.eltd-blog-holder article.format-gallery .owl-carousel .owl-item {
+  z-index: 2;
+}
+
+.eltd-blog-holder article.format-gallery .owl-carousel .owl-item.active {
+  z-index: 3;
+}
+
+.eltd-blog-holder article.format-audio.has-post-thumbnail .eltd-post-heading {
+  position: relative;
+}
+
+.eltd-blog-holder article.format-audio.has-post-thumbnail .eltd-blog-audio-holder {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-blog-holder article.format-audio .eltd-post-image {
+  width: 100%;
+  max-width: inherit;
+}
+
+.eltd-blog-holder article.format-audio .eltd-post-image img {
+  width: 100%;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container, .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-embed, .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-embed body, .eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls {
+  background: none;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container {
+  background-color: #0d0d0d;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls {
+  height: 38px !important;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls {
+  padding: 0 10px 0 4px;
+  box-sizing: border-box;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button {
+  width: 39px;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button {
+  width: 30px;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button {
+  height: 38px;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button button,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button button {
+  position: relative;
+  height: 100%;
+  background: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-play button,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-play button {
+  width: 39px;
+  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/play.png");
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-pause button,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-pause button {
+  width: 39px;
+  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/pause.png");
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-stop button,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-stop button {
+  width: 39px;
+  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/stop.png");
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-mute button,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-mute button {
+  width: 30px;
+  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/sound.png");
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-playpause-button.mejs-unmute button,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-volume-button.mejs-unmute button {
+  width: 30px;
+  background-image: url("/wp-content/themes/tamashi/framework/modules/blog/assets/img/audio/mute.png");
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time {
+  height: 100%;
+  padding: 0;
+  font-family: inherit;
+  font-size: 13px;
+  color: #fff;
+  line-height: 36px;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time-rail {
+  height: 100%;
+  padding: 0;
+  font-family: inherit;
+  margin: 0 24px;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time-rail .mejs-time-total {
+  height: 10px;
+  margin: 15px 0;
+  background: #272727;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time-rail .mejs-time-total .mejs-time-current {
+  height: 10px;
+  background-color: #fff;
+  opacity: 1;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time-rail .mejs-time-total .mejs-time-float {
+  top: -14px;
+  border: 0;
+  color: #fff;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time-rail .mejs-time-total .mejs-time-float .mejs-time-float-corner {
+  border-top-color: #0d0d0d;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time-rail .mejs-time-total .mejs-time-loaded,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > .mejs-time-rail .mejs-time-total .mejs-time-float {
+  background: none;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > a.mejs-horizontal-volume-slider {
+  height: 38px;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > a.mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > a.mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  height: 10px;
+  top: 15px;
+  background: none;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > a.mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+  background-color: #fff;
+}
+
+.eltd-blog-holder article.format-audio .eltd-blog-audio-holder .mejs-container .mejs-controls > a.mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  background-color: #272727;
+  top: 0;
+}
+
+.eltd-blog-holder article.format-video .eltd-self-hosted-video {
+  max-width: 100%;
+}
+
+.eltd-blog-holder .eltd-comment-pager .current {
+  border-bottom: 1px solid #272727;
+}
+
+/* ==========================================================================
+   Blog Common style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog Masonry general style - begin
+   ========================================================================== */
+.eltd-blog-holder.eltd-blog-type-masonry {
+  /***** Number of Columns - begin *****/
+  /***** Number of Columns - end *****/
+  /***** Space on container if full width - start *****/
+  /***** Space on container if full width - end *****/
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry .eltd-blog-holder-inner {
+  opacity: 0;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry article {
+  float: left;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry article,
+.eltd-blog-holder.eltd-blog-type-masonry .eltd-blog-masonry-grid-sizer {
+  width: 100%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry .eltd-blog-masonry-grid-gutter {
+  width: 0;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns article,
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns .eltd-blog-masonry-grid-sizer {
+  width: 50%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns article.eltd-post-size-large-width-height {
+  width: 100%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article,
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns .eltd-blog-masonry-grid-sizer {
+  width: 33.33333%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article.eltd-post-size-large-width-height {
+  width: 66.66667%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article,
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns .eltd-blog-masonry-grid-sizer {
+  width: 25%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width-height {
+  width: 50%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article,
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns .eltd-blog-masonry-grid-sizer {
+  width: 20%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width-height {
+  width: 40%;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-masonry-full-width {
+  box-sizing: border-box;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-masonry-full-width.eltd-no-space {
+  padding: 0 0px;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-masonry-full-width.eltd-tiny-space {
+  padding: 0 10px;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-masonry-full-width.eltd-small-space {
+  padding: 0 20px;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-masonry-full-width.eltd-normal-space {
+  padding: 0 30px;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-masonry-full-width.eltd-medium-space {
+  padding: 0 40px;
+}
+
+.eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-masonry-full-width.eltd-large-space {
+  padding: 0 50px;
+}
+
+/* ==========================================================================
+   Blog Masonry general style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog pagination standard style - begin
+   ========================================================================== */
+.eltd-blog-pagination-wp {
+  display: none;
+}
+
+.eltd-blog-pagination {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 20px 0 30px;
+  clear: both;
+}
+
+.eltd-blog-pagination ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.eltd-blog-pagination ul li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 4px;
+}
+
+.eltd-blog-pagination ul li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  border-bottom: 2px solid transparent;
+}
+
+.eltd-blog-pagination ul li a:hover, .eltd-blog-pagination ul li a.eltd-pag-active {
+  color: #272727;
+  border-bottom: 2px solid #aaa;
+}
+
+.eltd-blog-pagination ul li.eltd-pag-prev, .eltd-blog-pagination ul li.eltd-pag-next {
+  top: 1px;
+  margin: 0;
+}
+
+.eltd-blog-pagination ul li.eltd-pag-prev a, .eltd-blog-pagination ul li.eltd-pag-next a {
+  font-size: 15px;
+  font-style: normal;
+}
+
+.eltd-blog-pagination ul li.eltd-pag-prev a span, .eltd-blog-pagination ul li.eltd-pag-next a span {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-blog-pagination ul li.eltd-pag-prev a span:before, .eltd-blog-pagination ul li.eltd-pag-next a span:before {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-blog-pagination ul li.eltd-pag-prev a:hover, .eltd-blog-pagination ul li.eltd-pag-next a:hover {
+  border-bottom: 2px solid transparent;
+}
+
+.eltd-blog-pagination ul li.eltd-pag-first, .eltd-blog-pagination ul li.eltd-pag-last {
+  display: none;
+}
+
+/* ==========================================================================
+   Blog pagination standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List shortcode pagination standard style - begin
+   ========================================================================== */
+.eltd-blog-list-holder.eltd-bl-pag-standard-shortcodes .eltd-blog-list {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+
+.eltd-blog-list-holder.eltd-bl-pag-standard-shortcodes.eltd-bl-pag-standard-shortcodes-animate .eltd-blog-list {
+  opacity: 0;
+}
+
+.eltd-bl-standard-pagination {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 20px 0 0;
+  clear: both;
+}
+
+.eltd-bl-standard-pagination ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.eltd-bl-standard-pagination ul li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 12px;
+  padding: 0;
+}
+
+.eltd-bl-standard-pagination ul li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-active a {
+  color: #272727;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-prev, .eltd-bl-standard-pagination ul li.eltd-bl-pag-next {
+  position: absolute;
+  top: 0;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-prev a, .eltd-bl-standard-pagination ul li.eltd-bl-pag-next a {
+  font-size: 30px;
+  -webkit-transition: color 0.3s ease-out, opacity 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out, opacity 0.3s ease-out;
+  transition: color 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-prev a span, .eltd-bl-standard-pagination ul li.eltd-bl-pag-next a span {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-prev a span:before, .eltd-bl-standard-pagination ul li.eltd-bl-pag-next a span:before {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-prev {
+  left: 0;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-prev a {
+  opacity: 0;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-next {
+  right: 0;
+}
+
+.eltd-bl-standard-pagination ul li.eltd-bl-pag-next a {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Blog List shortcode pagination standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog pagination load more style - begin
+   ========================================================================== */
+.eltd-blog-pag-load-more {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 40px 0 30px;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Blog pagination load more style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog pagination loading element style - begin
+   ========================================================================== */
+.eltd-blog-pag-loading {
+  position: relative;
+  display: none;
+  width: 100%;
+  margin: 40px 0 20px;
+  color: #0d0d0d;
+  text-align: center;
+}
+
+.eltd-blog-pag-loading.eltd-standard-pag-trigger {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+
+.eltd-blog-pag-loading.eltd-showing {
+  display: block;
+}
+
+.eltd-blog-pag-loading > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  margin: 0 3px;
+  background-color: #0d0d0d;
+  border-radius: 100%;
+  -webkit-animation: bl-pag-bouncedelay 1.4s infinite ease-in-out both;
+  -moz-animation: bl-pag-bouncedelay 1.4s infinite ease-in-out both;
+  animation: bl-pag-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.eltd-blog-pag-loading .eltd-blog-pag-bounce1 {
+  -webkit-animation-delay: -0.32s;
+  -moz-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.eltd-blog-pag-loading .eltd-blog-pag-bounce2 {
+  -webkit-animation-delay: -0.16s;
+  -moz-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bl-pag-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@-moz-keyframes bl-pag-bouncedelay {
+  0%, 80%, 100% {
+    -moz-transform: scale(0);
+  }
+  40% {
+    -moz-transform: scale(1);
+  }
+}
+
+@keyframes bl-pag-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* ==========================================================================
+   Blog pagination loading element style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List - Masonry style - begin
+   ========================================================================== */
+.eltd-blog-holder.eltd-blog-masonry article {
+  margin: 0 0 20px;
+  padding: 0 0 30px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article.eltd-post-has-media .eltd-post-heading {
+  margin-bottom: 21px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article .eltd-post-info-top {
+  margin-bottom: 6px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article .eltd-post-excerpt-holder {
+  margin: 8px 0 0;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article .eltd-post-read-more-button {
+  margin-top: 21px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article.format-quote {
+  margin-bottom: 65px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article.format-quote .eltd-post-mark .eltd-quote-mark {
+  font-size: 47px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article.format-quote .eltd-post-text {
+  padding: 45px 20px 40px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article.format-link {
+  margin-bottom: 65px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article.format-link .eltd-post-mark .eltd-quote-mark {
+  font-size: 35px;
+}
+
+.eltd-blog-holder.eltd-blog-masonry article.format-link .eltd-post-text {
+  padding: 24px 20px 44px;
+}
+
+/* ==========================================================================
+   Blog List - Masonry style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List - Standard style - begin
+   ========================================================================== */
+.eltd-blog-holder.eltd-blog-standard article {
+  margin: 0 0 75px;
+  padding: 0;
+}
+
+.eltd-blog-holder.eltd-blog-standard article.eltd-post-has-media .eltd-post-heading {
+  margin-bottom: 19px;
+}
+
+/* ==========================================================================
+   Blog List - Standard style - end
+   ========================================================================== */
+/* Single author box styles - begin
+	====================================================================== */
+.eltd-author-description {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  border: 1px solid #272727;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.eltd-author-description .eltd-author-description-inner {
+  padding: 41px 0 39px;
+  min-height: 78px;
+  clear: both;
+}
+
+.eltd-author-description .eltd-author-description-content {
+  position: relative;
+  padding: 0 30px;
+}
+
+.eltd-author-description .eltd-author-description-image {
+  width: 78px;
+  margin: 0;
+}
+
+.eltd-author-description .eltd-author-description-image img {
+  display: block;
+}
+
+.eltd-author-description .eltd-author-description-text-holder {
+  position: relative;
+  padding: 4px 0;
+  text-align: left;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-name {
+  margin: 0;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-name a {
+  color: #0d0d0d;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-email {
+  margin: 0;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-text {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-text > p {
+  margin: 17px 0 14px;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-social-icons {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-social-icons a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0 15px 0 0;
+  font-size: 11px;
+  color: #0d0d0d;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-social-icons a:last-child {
+  margin: 0;
+}
+
+.eltd-author-description .eltd-author-description-text-holder .eltd-author-social-icons a:hover {
+  color: #272727;
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-author-description .eltd-author-description-content {
+    padding: 0;
+  }
+  .eltd-author-description .eltd-author-description-image {
+    display: block;
+    width: 100%;
+  }
+  .eltd-author-description .eltd-author-description-text-holder {
+    display: block;
+    padding: 0;
+    margin-top: 30px;
+  }
+}
+
+/* Single author box styles - end
+	====================================================================== */
+/* Single posts navigation styles - begin
+    ====================================================================== */
+.eltd-blog-single-navigation {
+  position: relative;
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  clear: both;
+  box-sizing: border-box;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-navigation-inner {
+  padding: 47px 0 29px;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev,
+.eltd-blog-single-navigation .eltd-blog-single-next {
+  color: #0d0d0d;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev .eltd-blog-single-nav-mark,
+.eltd-blog-single-navigation .eltd-blog-single-next .eltd-blog-single-nav-mark {
+  font-size: 35px;
+  line-height: inherit;
+  color: inherit;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev .eltd-blog-single-nav-mark:before,
+.eltd-blog-single-navigation .eltd-blog-single-next .eltd-blog-single-nav-mark:before {
+  display: block;
+  line-height: inherit;
+  position: relative;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev .eltd-blog-single-nav-label,
+.eltd-blog-single-navigation .eltd-blog-single-next .eltd-blog-single-nav-label {
+  color: inherit;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1em;
+  margin-top: -2px;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev {
+  float: left;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev .eltd-blog-single-nav-mark,
+.eltd-blog-single-navigation .eltd-blog-single-prev .eltd-blog-single-nav-label {
+  float: left;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev .eltd-blog-single-nav-mark {
+  margin: 0 20px 0 0;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev .eltd-blog-single-nav-mark:before {
+  right: 0;
+  -webkit-transition: right 0.2s ease-in-out;
+  -moz-transition: right 0.2s ease-in-out;
+  transition: right 0.2s ease-in-out;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-prev:hover .eltd-blog-single-nav-mark:before {
+  right: 7px;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-next {
+  float: right;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-next .eltd-blog-single-nav-mark,
+.eltd-blog-single-navigation .eltd-blog-single-next .eltd-blog-single-nav-label {
+  float: right;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-next .eltd-blog-single-nav-mark {
+  margin: 0 0 0 20px;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-next .eltd-blog-single-nav-mark:before {
+  left: 0;
+  -webkit-transition: left 0.2s ease-in-out;
+  -moz-transition: left 0.2s ease-in-out;
+  transition: left 0.2s ease-in-out;
+}
+
+.eltd-blog-single-navigation .eltd-blog-single-next:hover .eltd-blog-single-nav-mark:before {
+  left: 7px;
+}
+
+.eltd-single-links-pages {
+  clear: both;
+  margin: 20px 0 5px;
+}
+
+.eltd-single-links-pages .eltd-single-links-pages-inner > a,
+.eltd-single-links-pages .eltd-single-links-pages-inner > span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 5px 0;
+}
+
+/* Single posts navigation styles - end
+    ====================================================================== */
+/* Related posts styles - begin
+	====================================================================== */
+.eltd-related-posts-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.eltd-related-posts-holder .eltd-related-posts-holder-inner {
+  padding: 46px 0 26px;
+}
+
+.eltd-related-posts-holder .eltd-related-posts-title {
+  margin: 0 0 40px;
+}
+
+.eltd-related-posts-holder .eltd-related-posts-title > * {
+  margin: 0;
+  display: inline-block;
+  border-bottom: 1px solid #0d0d0d;
+}
+
+.eltd-related-posts-holder .eltd-related-posts-inner {
+  margin: 0 -15px;
+}
+
+.eltd-related-posts-holder .eltd-related-post {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: 0 0 30px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.eltd-content-has-sidebar .eltd-related-posts-holder .eltd-related-post {
+  widtH: 33.33333333333333%;
+}
+
+.touch .eltd-related-posts-holder .eltd-related-post {
+  cursor: pointer;
+}
+
+.eltd-related-posts-holder .eltd-related-post:hover .eltd-related-post-image a:after {
+  opacity: 1;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-related-post-image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-related-post-image a {
+  position: relative;
+  display: block;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-related-post-image a:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(13, 13, 13, 0.15);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-related-post-image img {
+  display: block;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-title {
+  margin: 19px 0 0;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-info {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 4px 0 0;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-info > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  padding: 0 13px 0 0;
+  color: inherit;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-info > div:after {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  content: '/';
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-info > div:last-child {
+  padding: 0;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-info > div:last-child:after {
+  display: none;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-info > div.eltd-post-info-author .eltd-post-info-author-text {
+  margin: 0 3px 0 0;
+}
+
+.eltd-related-posts-holder .eltd-related-post .eltd-post-info > div a {
+  color: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Related posts styles - end
+	====================================================================== */
+/* ==========================================================================
+   Blog Single style - begin
+   ========================================================================== */
+.eltd-blog-holder.eltd-blog-single article {
+  margin: 0 0 30px;
+}
+
+.eltd-blog-holder.eltd-blog-single article .eltd-post-heading {
+  margin-bottom: 28px;
+}
+
+.eltd-blog-holder.eltd-blog-single article .eltd-post-info-top {
+  margin: 7px 0 0;
+}
+
+.eltd-blog-holder.eltd-blog-single article .eltd-post-text {
+  padding: 0 0 21px;
+}
+
+.eltd-blog-holder.eltd-blog-single article.format-quote .eltd-post-text {
+  padding: 93px 100px 77px;
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-blog-holder.eltd-blog-single article.format-quote .eltd-post-text {
+    padding: 93px 20px 77px;
+  }
+}
+
+.eltd-blog-holder.eltd-blog-single article.format-link .eltd-post-text {
+  padding: 65px 100px 77px;
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-blog-holder.eltd-blog-single article.format-link .eltd-post-text {
+    padding: 65px 20px 77px;
+  }
+}
+
+.single-post .eltd-blog-fullwidth-featured-image-holder .eltd-blog-fullwidth-featured-image {
+  height: 778px !important;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1366px) {
+  .single-post .eltd-blog-fullwidth-featured-image-holder .eltd-blog-fullwidth-featured-image {
+    height: 645px !important;
+  }
+}
+
+/* ==========================================================================
+   Blog Single style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List shortcode global style - begin
+   ========================================================================== */
+.eltd-blog-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+
+.eltd-blog-list-holder .eltd-blog-list {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.eltd-blog-list-holder .eltd-bl-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.eltd-blog-list-holder .eltd-bli-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-blog-list-holder .eltd-bli-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltd-blog-list-holder .eltd-post-image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 30px;
+}
+
+.eltd-blog-list-holder .eltd-post-image a {
+  display: block;
+}
+
+.eltd-blog-list-holder .eltd-post-image img {
+  display: block;
+}
+
+.eltd-blog-list-holder .eltd-bli-info {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 8px;
+  clear: both;
+}
+
+.eltd-blog-list-holder .eltd-bli-info > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.2em;
+  float: left;
+  padding: 0 10px 5px 0;
+  font-style: italic;
+}
+
+.eltd-blog-list-holder .eltd-bli-info > div:after {
+  content: '/';
+}
+
+.eltd-blog-list-holder .eltd-bli-info > div:last-child {
+  padding: 0 0 5px;
+}
+
+.eltd-blog-list-holder .eltd-bli-info > div:last-child:after {
+  content: '';
+}
+
+.eltd-blog-list-holder .eltd-bli-info > div a {
+  color: #272727;
+}
+
+.eltd-blog-list-holder .eltd-bli-info .eltd-post-info-category:after {
+  margin-left: 10px;
+}
+
+.eltd-blog-list-holder .eltd-post-title {
+  margin: 0;
+}
+
+.eltd-blog-list-holder .eltd-post-excerpt {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 20px 0 0;
+}
+
+.eltd-blog-list-holder .eltd-post-excerpt p {
+  margin: 0;
+}
+
+.eltd-blog-list-holder .eltd-post-excerpt:after {
+  content: '.';
+}
+
+.eltd-blog-list-holder .eltd-post-read-more-button {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 12px 0 0;
+}
+
+/* ==========================================================================
+   Blog List shortcode global style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List shortcode - Boxed type style - begin
+   ========================================================================== */
+.eltd-blog-list-holder.eltd-bl-boxed:not(.eltd-bl-one-column) .eltd-bl-item {
+  float: left;
+}
+
+.eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-two-columns .eltd-bl-item {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-two-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-three-columns .eltd-bl-item {
+  width: 33.33333%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-three-columns .eltd-bl-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-four-columns .eltd-bl-item {
+  width: 25%;
+}
+
+@media only screen and (min-width: 1201px) {
+  .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-four-columns .eltd-bl-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-five-columns .eltd-bl-item {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1201px) {
+  .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-five-columns .eltd-bl-item:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-boxed .eltd-bli-content {
+  padding: 40px 30px;
+  background-color: #f6f6f6;
+}
+
+.eltd-blog-list-holder.eltd-bl-boxed .eltd-post-image {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Blog List shortcode - Boxed type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List shortcode - Masonry type style - begin
+   ========================================================================== */
+.eltd-blog-list-holder.eltd-bl-masonry {
+  transition: none !important;
+  overflow: visible !important;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry .eltd-blog-list {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry .eltd-bl-item {
+  vertical-align: top;
+  z-index: 100;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry .eltd-bl-item,
+.eltd-blog-list-holder.eltd-bl-masonry .eltd-bl-grid-sizer {
+  width: 100%;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry .eltd-bl-grid-gutter {
+  width: 0;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-two-columns .eltd-bl-item,
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-two-columns .eltd-bl-grid-sizer {
+  width: 50%;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-three-columns .eltd-bl-item,
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-three-columns .eltd-bl-grid-sizer {
+  width: 33.33333%;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-item,
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-grid-sizer {
+  width: 25%;
+}
+
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-item,
+.eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-grid-sizer {
+  width: 20%;
+}
+
+/* ==========================================================================
+   Blog List shortcode - Masonry type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List shortcode - Minimal type style - begin
+   ========================================================================== */
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner {
+  display: table;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-post-image {
+  display: table-cell;
+  vertical-align: top;
+  width: 95px;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-post-image a {
+  position: relative;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-post-image a:hover:after {
+  opacity: 1;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-post-image a:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(13, 13, 13, 0.15);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-bli-content {
+  display: table-cell;
+  vertical-align: top;
+  width: auto;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-bli-content .eltd-post-title,
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-bli-content .eltd-post-excerpt {
+  margin-top: 9px;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-bli-content .eltd-post-info-date,
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-bli-content .eltd-post-info-author {
+  display: inline-block;
+  margin: 0;
+  font-style: italic;
+  line-height: 1em;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal .eltd-bli-inner .eltd-bli-content .eltd-post-info-author:after {
+  content: '/';
+  margin-right: 9px;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal:not(.eltd-bl-one-column) .eltd-bl-item {
+  float: left;
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-two-columns .eltd-bl-item {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-two-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-three-columns .eltd-bl-item {
+  width: 33.33333%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-three-columns .eltd-bl-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-four-columns .eltd-bl-item {
+  width: 25%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-four-columns .eltd-bl-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-five-columns .eltd-bl-item {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-five-columns .eltd-bl-item:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+/* ==========================================================================
+   Blog List shortcode - Minimal type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List shortcode - Simple type style - begin
+   ========================================================================== */
+.eltd-blog-list-holder.eltd-bl-simple .eltd-post-image {
+  display: table-cell;
+  vertical-align: top;
+  width: 84px;
+}
+
+.eltd-blog-list-holder.eltd-bl-simple .eltd-bli-content {
+  display: table-cell;
+  vertical-align: top;
+  width: auto;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.eltd-blog-list-holder.eltd-bl-simple .eltd-bli-content .eltd-post-info-date {
+  display: block;
+  margin: 7px 0 0;
+  line-height: 1;
+}
+
+.eltd-blog-list-holder.eltd-bl-simple .eltd-bli-content .eltd-post-info-date a {
+  font-size: 11px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+}
+
+.eltd-blog-list-holder.eltd-bl-simple ul li:last-child .eltd-bli-inner .eltd-bli-content {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   Blog List shortcode - Simple type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List shortcode - Standard type style - begin
+   ========================================================================== */
+.eltd-blog-list-holder.eltd-bl-standard:not(.eltd-bl-one-column) .eltd-bl-item {
+  float: left;
+}
+
+.eltd-blog-list-holder.eltd-bl-standard.eltd-bl-two-columns .eltd-bl-item {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-two-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-standard.eltd-bl-three-columns .eltd-bl-item {
+  width: 33.33333%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-three-columns .eltd-bl-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-standard.eltd-bl-four-columns .eltd-bl-item {
+  width: 25%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-four-columns .eltd-bl-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+.eltd-blog-list-holder.eltd-bl-standard.eltd-bl-five-columns .eltd-bl-item {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-five-columns .eltd-bl-item:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+/* ==========================================================================
+   Blog List shortcode - Standard type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog List loading element style - begin
+   ========================================================================== */
+.eltd-bl-loading {
+  position: relative;
+  display: none;
+  width: 100%;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+.eltd-bl-loading.eltd-showing {
+  display: block;
+}
+
+.eltd-bl-loading > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  margin: 0 3px;
+  background-color: #0d0d0d;
+  border-radius: 100%;
+  -webkit-animation: bl-bouncedelay 1.4s infinite ease-in-out both;
+  -moz-animation: bl-bouncedelay 1.4s infinite ease-in-out both;
+  animation: bl-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.eltd-bl-loading .eltd-bl-loading-bounce1 {
+  -webkit-animation-delay: -0.32s;
+  -moz-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.eltd-bl-loading .eltd-bl-loading-bounce2 {
+  -webkit-animation-delay: -0.16s;
+  -moz-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bl-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@-moz-keyframes bl-bouncedelay {
+  0%, 80%, 100% {
+    -moz-transform: scale(0);
+  }
+  40% {
+    -moz-transform: scale(1);
+  }
+}
+
+@keyframes bl-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* ==========================================================================
+   Blog List loading element style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog Slider shortcode style - begin
+   ========================================================================== */
+.eltd-blog-slider-holder {
+  /***** Slider Type Style - begin *****/
+  /***** Slider Type Style - end *****/
+  /***** Carousel Type Style - begin *****/
+  /***** Carousel Type Style - end *****/
+  /***** Carousel Centered Type Style - begin *****/
+  /***** Carousel Centered Type Style - end *****/
+}
+
+.eltd-blog-slider-holder.eltd-bs-slider .eltd-blog-slider-item {
+  text-align: center;
+}
+
+.touch .eltd-blog-slider-holder.eltd-bs-slider .eltd-blog-slider-item {
+  cursor: pointer;
+}
+
+.eltd-blog-slider-holder.eltd-bs-slider .eltd-blog-slider-item:hover .eltd-item-text-wrapper {
+  opacity: 1;
+}
+
+.eltd-blog-slider-holder.eltd-bs-slider .eltd-post-title {
+  color: #fff;
+}
+
+.eltd-blog-slider-holder.eltd-bs-slider .eltd-post-title a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-blog-slider-holder.eltd-bs-slider .eltd-post-read-more-button a {
+  color: #fff;
+}
+
+.eltd-blog-slider-holder.eltd-bs-slider .eltd-post-read-more-button a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel .eltd-item-image a:hover:after {
+  opacity: 1;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel .eltd-item-image a:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(13, 13, 13, 0.15);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel .eltd-post-title {
+  margin: 29px 0 0;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel .eltd-post-read-more-button {
+  margin: 15px 0 0;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel-centered .active.center .eltd-item-text-wrapper {
+  opacity: 1;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel-centered .eltd-blog-slider-item {
+  text-align: center;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel-centered .eltd-post-title {
+  color: #fff;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel-centered .eltd-post-title a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel-centered .eltd-post-read-more-button a {
+  color: #fff;
+}
+
+.eltd-blog-slider-holder.eltd-bs-carousel-centered .eltd-post-read-more-button a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-blog-slider-holder .eltd-blog-slider-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  list-style-type: none;
+}
+
+.eltd-blog-slider-holder .eltd-item-image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltd-blog-slider-holder .eltd-item-text-wrapper {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(39, 39, 39, 0.85);
+  opacity: 0;
+  -webkit-transition: opacity 0.45s ease-out;
+  -moz-transition: opacity 0.45s ease-out;
+  transition: opacity 0.45s ease-out;
+}
+
+.eltd-blog-slider-holder .eltd-item-text-holder {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.eltd-blog-slider-holder .eltd-item-text-holder-inner {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 5%;
+}
+
+.eltd-blog-slider-holder .eltd-item-info-section {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+.eltd-blog-slider-holder .eltd-item-info-section > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 10px;
+  margin-right: 3px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.eltd-blog-slider-holder .eltd-item-info-section > div a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.eltd-blog-slider-holder .eltd-item-info-section > div a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-blog-slider-holder .eltd-item-info-section > div:after {
+  content: "/";
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+
+.eltd-blog-slider-holder .eltd-item-info-section > div:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.eltd-blog-slider-holder .eltd-item-info-section > div:last-child:after {
+  content: '';
+}
+
+.eltd-blog-slider-holder .eltd-post-title {
+  margin: 0;
+}
+
+.eltd-blog-slider-holder .eltd-bli-excerpt {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 12px 0 0;
+}
+
+.eltd-blog-slider-holder .eltd-bli-excerpt p {
+  margin: 0;
+}
+
+.eltd-blog-slider-holder .eltd-post-read-more-button {
+  margin: 5px 0 0;
+}
+
+/* ==========================================================================
+   Blog Slider shortcode style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=blog-map.css.map */

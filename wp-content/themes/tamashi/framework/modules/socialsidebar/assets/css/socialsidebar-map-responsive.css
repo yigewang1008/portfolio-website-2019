@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Socialsidebar responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Social sidebar responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .eltd-social-sidebar-holder {
+    right: 38px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-social-sidebar-holder {
+    right: 28px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-social-sidebar-holder {
+    right: 15px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-social-sidebar-holder {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Social sidebar responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Socialsidebar responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=socialsidebar-map-responsive.css.map */

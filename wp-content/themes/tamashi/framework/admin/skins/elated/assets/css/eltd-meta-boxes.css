@@ -1,0 +1,125 @@
+.eltd-meta-box {
+  margin: -6px -12px -12px; }
+  .eltd-meta-box .eltd-meta-box-holder {
+    width: 100%; }
+  .eltd-meta-box .eltd-meta-box-holder .eltd-page-form-section th {
+    width: 250px; }
+  .eltd-meta-box .eltd-meta-box-holder .eltd-page-form-section th p {
+    font-weight: 400;
+    color: #9e9e9e; }
+  .eltd-meta-box .eltd-portfolio-media, .eltd-meta-box .eltd-portfolio-additional-item,
+  .eltd-meta-box .eltd-slide-element-media, .eltd-meta-box .eltd-slide-element-additional-item  {
+    background: #fff;
+    margin-bottom: 5px; }
+  .eltd-meta-box .eltd-portfolio-media .eltd-page-form-section,
+  .eltd-meta-box .eltd-slide-element-media .eltd-page-form-section  {
+    border-top: none; }
+  .eltd-meta-box .eltd-meta-box-holder .eltd-portfolio-media .eltd-page-form-section, .eltd-meta-box .eltd-meta-box-holder .eltd-portfolio-additional-item .eltd-page-form-section,
+  .eltd-meta-box .eltd-meta-box-holder .eltd-slide-element-media .eltd-page-form-section, .eltd-meta-box .eltd-meta-box-holder .eltd-slide-element-additional-item .eltd-page-form-section  {
+    border-bottom: none;
+    display: table;
+    width: 100%; }
+  .eltd-meta-box .eltd-portfolio-toggle-holder,
+  .eltd-meta-box .eltd-slide-element-toggle-holder  {
+    display: table;
+    width: 100%;
+    border: 1px solid #dae0e8;
+    position: relative;
+    cursor: pointer; }
+  .eltd-meta-box .eltd-portfolio-toggle,
+  .eltd-meta-box .eltd-slide-element-toggle  {
+    display: table-cell;
+    vertical-align: middle;
+    background: #ebeef2;
+    color: #6F858D;
+    height: 40px;
+    padding: 0 10px; }
+  .eltd-meta-box .eltd-portfolio-media .eltd-portfolio-toggle-content, .eltd-meta-box .eltd-portfolio-additional-item .eltd-portfolio-toggle-content,
+  .eltd-meta-box .eltd-slide-element-media .eltd-slide-element-toggle-content, .eltd-meta-box .eltd-slide-element-additional-item .eltd-slide-element-toggle-content  {
+    border: 1px solid #dbdee0;
+    border-top: none; }
+  .eltd-meta-box .eltd-portfolio-toggle .number,
+  .eltd-meta-box .eltd-slide-element-toggle .number  {
+    display: inline-block;
+    background-color: #ABB7C7;
+    color: #fff;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 1px 5px; }
+  .eltd-meta-box .eltd-portfolio-toggle.eltd-portfolio-control,
+  .eltd-meta-box .eltd-slide-element-toggle.eltd-slide-element-control  {
+    text-align: right;
+    padding-right: 40px;
+    color: #ABB7C7;
+    font-size: 14px; }
+  .eltd-meta-box .eltd-portfolio-toggle.eltd-portfolio-control a,
+  .eltd-meta-box .eltd-slide-element-toggle.eltd-slide-element-control a  {
+    color: #ABB7C7; }
+  .eltd-meta-box .eltd-portfolio-toggle.eltd-portfolio-control a.remove-portfolio-media, .eltd-meta-box .eltd-portfolio-toggle.eltd-portfolio-control a.remove-portfolio-item,
+  .eltd-meta-box .eltd-slide-element-toggle.eltd-slide-element-control a.remove-slide-element-media, .eltd-meta-box .eltd-slide-element-toggle.eltd-slide-element-control a.remove-slide-element-item  {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 13px 11px 14px 5px;
+    line-height: 0; }
+  .eltd-meta-box .eltd-portfolio-add,
+  .eltd-meta-box .eltd-slide-element-add  {
+    padding: 20px; }
+  .eltd-meta-box .eltd-portfolio-add a:first-child,
+  .eltd-meta-box .eltd-slide-element-add a:first-child  {
+    margin-right: 3px; }
+  .eltd-meta-box .eltd-portfolio-add a:last-child,
+  .eltd-meta-box .eltd-slide-element-add a:last-child  {
+    margin-right: 10px; }
+  .eltd-meta-box .eltd-portfolio-add i,
+  .eltd-meta-box .eltd-slide-element-add i  {
+    margin-right: 5px; }
+  .eltd-meta-box .eltd-meta-box-hidden {
+    display: none; }
+  .eltd-meta-box .eltd-meta-box-holder .eltd-page-form-container-holder .eltd-page-form-container-holder {
+    border-left: none;
+    margin-left: 0; }
+  .eltd-meta-box .eltd-page.btn-default {
+    margin-right: 0; }
+
+div.inside > div > div > div.eltd-page-form-section:first-child {
+  border-top: none; 
+}
+
+.eltd-meta-box-holder .eltd-page-section-subtitle {
+    color: #374a59;
+    font-weight: 400;
+    display: inline-block;
+    margin: 15px 0 15px;
+    font-size: 14px;
+    position: relative;
+    left: 0px;
+    padding: 0px 20px;
+    border-left: 3px solid #54a2af;
+}
+
+/*# sourceMappingURL=eltd-meta-boxes.css.map */
+
+
+.eltd-slide-elements-holder-frame-scheme {
+    max-width: 300px;
+    background: white;
+    position: absolute;
+    top: 30px;
+    right: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.eltd-slide-elements-holder-frame-scheme img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltd-slide-elements-holder-frame-scheme {
+    position: static;
+    padding: 0;
+  }
+}

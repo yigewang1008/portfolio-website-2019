@@ -1,0 +1,2602 @@
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+.eltd-page-header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  z-index: 110;
+  box-sizing: border-box;
+  /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+  /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - end
+    ========================================================================== */
+}
+
+.eltd-page-header a img {
+  display: block;
+}
+
+.eltd-page-header p {
+  margin: 0;
+}
+
+.eltd-page-header .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.eltd-paspartu-enabled .eltd-page-header .eltd-vertical-align-containers {
+  padding: 0;
+}
+
+.eltd-page-header .eltd-grid {
+  height: 100%;
+}
+
+.eltd-page-header .eltd-grid .eltd-vertical-align-containers {
+  padding: 0;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.eltd-page-header .eltd-logo-area {
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.eltd-page-header .eltd-logo-area .eltd-logo-wrapper a {
+  max-height: 90px;
+}
+
+.eltd-page-header .eltd-menu-area {
+  position: relative;
+  height: 90px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.eltd-boxed .eltd-page-header .eltd-menu-area {
+  padding: 0;
+}
+
+.eltd-page-header .eltd-menu-area .eltd-logo-wrapper a {
+  max-height: 90px;
+}
+
+.eltd-page-header .eltd-menu-area .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.eltd-logo-area-border-disable .eltd-page-header .eltd-logo-area {
+  border: none;
+}
+
+.eltd-logo-area-in-grid-border-disable .eltd-page-header .eltd-logo-area .eltd-grid .eltd-vertical-align-containers {
+  border: none;
+}
+
+.eltd-header-logo-area-in-grid-padding .eltd-page-header .eltd-logo-area .eltd-vertical-align-containers {
+  padding: 0 25px;
+}
+
+.eltd-menu-area-shadow-disable .eltd-page-header .eltd-menu-area {
+  box-shadow: none;
+}
+
+.eltd-menu-area-shadow-disable .eltd-page-header .eltd-menu-area .eltd-grid .eltd-vertical-align-containers {
+  box-shadow: none;
+}
+
+.eltd-menu-area-border-disable .eltd-page-header .eltd-menu-area {
+  border: none;
+}
+
+.eltd-menu-area-in-grid-border-disable .eltd-page-header .eltd-menu-area .eltd-grid .eltd-vertical-align-containers {
+  border: none;
+}
+
+.eltd-header-logo-area-in-grid-padding .eltd-page-header .eltd-menu-area .eltd-vertical-align-containers {
+  padding: 0 25px;
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 1;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 0;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget p,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget span,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget i,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget p,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget span,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget i,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 1;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 0;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget p,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget span,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget i,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget p,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget span,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget i,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */
+/* ==========================================================================
+   Header end - end
+   ========================================================================== */
+/* ==========================================================================
+   Header logo styles - begin
+   ========================================================================== */
+.eltd-logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-logo-wrapper a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.eltd-logo-wrapper a img {
+  height: 100%;
+  width: auto;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.eltd-logo-wrapper a img.eltd-normal-logo {
+  opacity: 1;
+}
+
+.eltd-logo-wrapper a img.eltd-dark-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.eltd-logo-wrapper a img.eltd-light-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  transform: translateY(-200%);
+}
+
+/* ==========================================================================
+   Header logo styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Header main menu style - begin
+   ========================================================================== */
+.eltd-main-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  width: auto;
+}
+
+.eltd-main-menu ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.eltd-main-menu ul li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-main-menu ul li a {
+  font-size: 13px;
+  line-height: 24px;
+  color: #272727;
+}
+
+.eltd-main-menu ul li a .item_outer .item_text {
+  position: relative;
+}
+
+.eltd-main-menu ul li a .item_outer .item_text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  border-bottom: 1px solid currentcolor;
+  -webkit-transition: width ease-out 300ms;
+  -moz-transition: width ease-out 300ms;
+  transition: width ease-out 300ms;
+}
+
+.eltd-main-menu ul li a:hover .item_outer .item_text:after {
+  width: 100%;
+}
+
+.eltd-main-menu ul li a i:before {
+  margin: 0 7px 0 0;
+}
+
+.eltd-main-menu ul li a .menu_icon_wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-main-menu ul li a .eltd-menu-featured-icon {
+  position: relative;
+  top: -4px;
+  left: 5px;
+  color: currentColor;
+  font-size: 10px;
+  margin: 0;
+}
+
+.eltd-main-menu ul li a .eltd-menu-featured-icon:before {
+  margin: 0;
+}
+
+.eltd-main-menu > ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.eltd-main-menu > ul > li {
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.eltd-main-menu > ul > li > a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer {
+  position: relative;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer .item_text {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-main-menu > ul > li.eltd-active-item > a {
+  color: #272727;
+}
+
+.eltd-main-menu > ul > li.eltd-active-item > a.current .item_text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid currentcolor;
+}
+
+.eltd-main-menu > ul > li.has_sub > a .eltd-menu-arrow {
+  display: none;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a {
+  color: #fff;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li.eltd-active-item > a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a:hover {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li.eltd-active-item > a {
+  color: #333;
+}
+
+/* Narrow drop down styles
+   ========================================================================== */
+.eltd-drop-down .second {
+  position: absolute;
+  display: block;
+  left: -13px;
+  top: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 10;
+  -webkit-transition: top 0.15s ease-out;
+  -moz-transition: top 0.15s ease-out;
+  transition: top 0.15s ease-out;
+}
+
+.eltd-drop-down .second.eltd-drop-down-start {
+  visibility: visible;
+  overflow: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.eltd-drop-down .second.right {
+  right: -13px;
+  left: auto;
+}
+
+.eltd-drop-down .second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  z-index: 997;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+
+.eltd-drop-down .second .inner ul li {
+  display: block;
+  float: none;
+  height: auto;
+}
+
+.eltd-drop-down .second .inner ul li .widget {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.eltd-drop-down .second .inner ul li a {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 7px 37px;
+  color: #fff;
+}
+
+.eltd-drop-down .second .inner ul li a .item_outer {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-transition: padding 0.2s ease-in-out;
+  -moz-transition: padding 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
+}
+
+.eltd-drop-down .second .inner ul li a:hover .item_outer .item_text:after {
+  border-bottom: 1px solid #fff;
+}
+
+.eltd-drop-down .second .inner ul li.current-menu-ancestor > a,
+.eltd-drop-down .second .inner ul li.current-menu-item > a {
+  color: #fff;
+}
+
+.eltd-drop-down .second .inner ul li.current-menu-ancestor > a .item_outer .item_text:after,
+.eltd-drop-down .second .inner ul li.current-menu-item > a .item_outer .item_text:after {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+.eltd-drop-down .second .inner ul li.sub > a .item_outer:after {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  right: 0;
+  content: '\e068';
+  font-family: 'linea-arrows-10';
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eltd-drop-down .second .inner ul.right li.sub > a .item_outer:after {
+  right: auto;
+  left: 0;
+  content: "\e066";
+}
+
+.eltd-drop-down .second .inner ul.right li a {
+  text-align: right;
+}
+
+.eltd-drop-down .second .inner ul.right li ul {
+  left: -100%;
+}
+
+.eltd-drop-down li.left_position .second {
+  left: 0;
+}
+
+.eltd-drop-down li.right_position .second {
+  left: auto;
+  right: 0;
+}
+
+.eltd-drop-down > ul > li:hover > .second {
+  z-index: 20;
+}
+
+.eltd-drop-down .narrow .second .inner ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #272727;
+  padding: 23px 0;
+}
+
+.eltd-drop-down .narrow .second .inner ul li {
+  width: 248px;
+}
+
+.eltd-drop-down .narrow .second .inner ul li ul {
+  position: absolute;
+  left: 100%;
+  top: -23px;
+  height: auto;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+
+.eltd-drop-down .narrow .second .inner ul li:hover ul {
+  z-index: 20;
+  opacity: 1;
+}
+
+.eltd-drop-down .narrow .second .inner ul.right li ul {
+  left: -100%;
+}
+
+/* Wide drop down styles
+   ========================================================================== */
+.eltd-drop-down .wide .second .inner {
+  background-color: #272727;
+  text-align: center;
+}
+
+.eltd-drop-down .wide .second .inner ul li a {
+  padding: 7px 0;
+}
+
+.eltd-drop-down .wide .second .inner ul li ul {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  visibility: visible;
+}
+
+.eltd-drop-down .wide .second .inner ul li ul li:last-child a {
+  padding-bottom: 0;
+}
+
+.eltd-drop-down .wide .second .inner > ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1100px;
+  padding: 35px 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1400px) {
+  .eltd-grid-1300 .eltd-drop-down .wide .second .inner > ul {
+    width: 1300px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .eltd-grid-1200 .eltd-drop-down .wide .second .inner > ul {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .eltd-grid-1000 .eltd-drop-down .wide .second .inner > ul {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .eltd-grid-800 .eltd-drop-down .wide .second .inner > ul {
+    width: 800px;
+  }
+}
+
+.eltd-drop-down .wide .second .inner > ul > li {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li:nth-child(4n+1) {
+  clear: both;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a {
+  padding: 0 0 13px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.1em;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a.no_link {
+  cursor: default;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a.no_link:hover > .item_outer > .item_text {
+  position: relative;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a.no_link:hover > .item_outer > .item_text:after {
+  width: 0;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a .item_outer {
+  padding: 0;
+  overflow: inherit;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a .item_outer:before, .eltd-drop-down .wide .second .inner > ul > li > a .item_outer:after {
+  display: none;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-ancestor > a > .item_outer > .item_text,
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-item > a > .item_outer > .item_text {
+  position: relative;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-ancestor > a > .item_outer > .item_text:after,
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-item > a > .item_outer > .item_text:after {
+  width: 100%;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul, .eltd-drop-down .wide.right_position .second .inner > ul {
+  width: auto;
+  white-space: nowrap;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul > li, .eltd-drop-down .wide.right_position .second .inner > ul > li {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul > li:nth-child(4n+1), .eltd-drop-down .wide.right_position .second .inner > ul > li:nth-child(4n+1) {
+  border-left: none;
+}
+
+.eltd-drop-down .wide.left_position .second ul li, .eltd-drop-down .wide.right_position .second ul li {
+  width: 200px;
+}
+
+/* ==========================================================================
+   Header main menu style - end
+   ========================================================================== */
+/* ==========================================================================
+   Fixed header style - begin
+   ========================================================================== */
+.eltd-page-header .eltd-fixed-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.admin-bar .eltd-page-header .eltd-fixed-wrapper.fixed {
+  margin-top: 32px;
+}
+
+.eltd-page-header .eltd-fixed-wrapper.fixed .eltd-menu-area {
+  background-color: #fff;
+  border-bottom: 1px solid #131313;
+}
+
+.eltd-fixed-on-scroll .eltd-page-header .eltd-fixed-wrapper .eltd-menu-area {
+  -webkit-transition: height 0.2s ease;
+  -moz-transition: height 0.2s ease;
+  transition: height 0.2s ease;
+}
+
+/* ==========================================================================
+   Fixed header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Centered style - begin
+   ========================================================================== */
+.eltd-header-centered .eltd-page-header .eltd-logo-area {
+  height: 150px;
+  overflow: visible;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-logo-area .eltd-logo-wrapper a {
+  max-height: 150px;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-menu-area {
+  height: 120px;
+  z-index: 1;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-menu-area .eltd-vertical-align-containers .eltd-position-center-inner {
+  height: 100%;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-sticky-header .eltd-position-left-inner {
+  height: auto;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-sticky-header .eltd-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Centered style - end
+   ========================================================================== */
+/*==========================================================================
+# Fullscreen menu style - begin
+========================================================================== */
+/* Fullscreen general style - begin
+========================================================================== */
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener:hover, .eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener.eltd-fm-opened {
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener {
+  color: #fff;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener:hover, .eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-fullscreen-menu-opener.eltd-fm-opened {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eltd-mobile-header .eltd-fullscreen-menu-opener.eltd-fm-opened .eltd-fm-close {
+  color: #272727;
+}
+
+.eltd-fullscreen-menu-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-circles {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 5px;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-circles .eltd-fm-circle {
+  position: absolute;
+  top: 0;
+  height: 5px;
+  width: 5px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-circles .eltd-fm-circle.eltd-circle-1 {
+  left: 0;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-circles .eltd-fm-circle.eltd-circle-2 {
+  left: 10px;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-circles .eltd-fm-circle.eltd-circle-3 {
+  left: 20px;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.eltd-fullscreen-menu-opener:hover .eltd-fm-circles .eltd-fm-circle.eltd-circle-1 {
+  left: 20px;
+}
+
+.eltd-fullscreen-menu-opener:hover .eltd-fm-circles .eltd-fm-circle.eltd-circle-3 {
+  left: 0;
+}
+
+.eltd-fullscreen-menu-opener .eltd-fm-close {
+  visibility: hidden;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+
+.eltd-fullscreen-menu-opener.eltd-fm-opened .eltd-fm-circles {
+  visibility: hidden;
+}
+
+.eltd-fullscreen-menu-opener.eltd-fm-opened .eltd-fm-close {
+  visibility: visible;
+}
+
+.eltd-fullscreen-menu-opened .eltd-page-header,
+.eltd-fullscreen-menu-opened .eltd-top-bar {
+  visibility: hidden;
+}
+
+.eltd-fullscreen-menu-opened .eltd-fullscreen-menu-opener {
+  visibility: visible;
+}
+
+.eltd-fullscreen-menu-opened .eltd-logo-wrapper {
+  visibility: hidden;
+}
+
+.eltd-fullscreen-menu-opened .eltd-fullscreen-menu-holder-outer {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.eltd-fullscreen-menu-holder-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden !important;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 105;
+  /* this has to be between header z-index and content z-index */
+}
+
+.eltd-fullscreen-menu-holder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  display: table;
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.eltd-fullscreen-menu-holder-inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 100px 0;
+}
+
+.touch .eltd-fullscreen-menu-holder-outer {
+  display: none;
+}
+
+.touch .eltd-fullscreen-menu-opened .eltd-fullscreen-menu-holder-outer {
+  display: block;
+}
+
+nav.eltd-fullscreen-menu {
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  text-align: left;
+}
+
+nav.eltd-fullscreen-menu ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav.eltd-fullscreen-menu ul li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav.eltd-fullscreen-menu ul li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 11px 0;
+  font-size: 13px;
+  line-height: 1.3em;
+  color: #fff;
+}
+
+nav.eltd-fullscreen-menu ul li a span {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav.eltd-fullscreen-menu ul li a span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  border-bottom: 1px solid currentColor;
+  -webkit-transition: width ease-out 300ms;
+  -moz-transition: width ease-out 300ms;
+  transition: width ease-out 300ms;
+}
+
+nav.eltd-fullscreen-menu ul li a .eltd-fullscreen-menu-arrow {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 20px;
+  font-size: 17px;
+  line-height: inherit;
+  -webkit-transition: all ease-out 0.3s;
+  -moz-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+}
+
+nav.eltd-fullscreen-menu ul li ul {
+  padding: 7px 0;
+}
+
+nav.eltd-fullscreen-menu ul li ul.sub_menu {
+  display: none;
+  margin-bottom: 5px;
+}
+
+nav.eltd-fullscreen-menu ul li ul li.current-menu-ancestor > a > span:after,
+nav.eltd-fullscreen-menu ul li ul li.current-menu-item > a > span:after,
+nav.eltd-fullscreen-menu ul li ul li:hover > a > span:after {
+  width: 100%;
+}
+
+nav.eltd-fullscreen-menu > ul {
+  display: block;
+}
+
+nav.eltd-fullscreen-menu > ul > li > a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 23px 0;
+}
+
+nav.eltd-fullscreen-menu > ul > li.eltd-active-item > a > span:after,
+nav.eltd-fullscreen-menu > ul > li:hover > a > span:after,
+nav.eltd-fullscreen-menu > ul > li.open_sub > a > span:after {
+  width: 100%;
+}
+
+nav.eltd-fullscreen-menu > ul > li.open_sub > a {
+  margin-bottom: 5px;
+}
+
+nav.eltd-fullscreen-menu > ul > li.open_sub > a > .eltd-fullscreen-menu-arrow,
+nav.eltd-fullscreen-menu > ul > li > a:hover > .eltd-fullscreen-menu-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-fullscreen-below-menu-widget-holder {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.eltd-fullscreen-above-menu-widget-holder {
+  text-align: center;
+}
+
+/* Fullscreen general style - end
+========================================================================== */
+/* Fullscreen fade animations general - begin
+========================================================================== */
+@-webkit-keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-moz-keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-moz-keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer,
+.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer,
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  overflow: hidden !important;
+  z-index: 105;
+  opacity: 0;
+}
+
+.eltd-fullscreen-fade-out .eltd-fullscreen-menu-holder-outer {
+  -webkit-animation: fade_out .25s linear both;
+  -moz-animation: fade_out .25s linear both;
+  animation: fade_out .25s linear both;
+}
+
+.eltd-fullscreen-menu-opened.eltd-fullscreen-fade-in .eltd-fullscreen-menu-holder-outer {
+  -webkit-animation: fade_in .25s linear both;
+  -moz-animation: fade_in .25s linear both;
+  animation: fade_in .25s linear both;
+}
+
+/* Fullscreen fade animations general - end
+========================================================================== */
+/* Fullscreen animation push text right - begin
+========================================================================== */
+@-webkit-keyframes push_text_right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes push_text_right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes push_text_right {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer nav > ul > li > a,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder > div,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder > div {
+  -webkit-animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+  -moz-animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+  animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+}
+
+.eltd-fade-push-text-right.eltd-push-nav-right .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fade-push-text-right.eltd-push-nav-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fade-push-text-right.eltd-push-nav-right .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+  -webkit-transform: translateX(50px);
+  -moz-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+/* Fullscreen animation push text right - end
+========================================================================== */
+/* Fullscreen animation push text top - begin
+========================================================================== */
+@-webkit-keyframes push_text_top {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes push_text_top {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@keyframes push_text_top {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer nav > ul > li > a,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder > div,
+.eltd-fullscreen-menu-opened.eltd-fade-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder > div {
+  -webkit-animation: push_text_top 0.4s ease-out both 0.5s;
+  -moz-animation: push_text_top 0.4s ease-out both 0.5s;
+  animation: push_text_top 0.4s ease-out both 0.5s;
+}
+
+.eltd-fade-push-text-top.eltd-push-text-top .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fade-push-text-top.eltd-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fade-push-text-top.eltd-push-text-top .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  transform: translateY(-30px);
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+/* Fullscreen animation push text top - end
+========================================================================== */
+/* Fullscreen animation fade text scaledown - begin
+========================================================================== */
+.eltd-fullscreen-menu-opened.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fullscreen-menu-opened.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fullscreen-menu-opened.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.25s linear 0.1s;
+  -moz-transition: all 0.25s linear 0.1s;
+  transition: all 0.25s linear 0.1s;
+}
+
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer nav,
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-below-menu-widget-holder,
+.eltd-fade-text-scaledown .eltd-fullscreen-menu-holder-outer .eltd-fullscreen-above-menu-widget-holder {
+  opacity: 0;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.25s linear 0.1s;
+  -moz-transition: all 0.25s linear 0.1s;
+  transition: all 0.25s linear 0.1s;
+}
+
+/* Fullscreen animation fade text scaledown - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen menu style - end
+==========================================================================*/
+/* ==========================================================================
+   Header Minimal style - begin
+   ========================================================================== */
+.eltd-header-minimal .eltd-page-header .eltd-menu-area .eltd-position-right-inner {
+  height: auto;
+}
+
+.eltd-header-minimal .eltd-page-header .eltd-position-left:before,
+.eltd-header-minimal .eltd-page-header .eltd-position-right:before {
+  content: "";
+}
+
+.eltd-header-minimal .eltd-page-header .eltd-sticky-header .eltd-position-left-inner {
+  height: auto;
+}
+
+.eltd-header-minimal .eltd-page-header .eltd-sticky-header .eltd-vertical-align-containers .eltd-position-right .eltd-position-right-inner {
+  height: auto;
+}
+
+/* ==========================================================================
+   Header Minimal style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard style - begin
+   ========================================================================== */
+.eltd-header-standard .eltd-menu-area.eltd-menu-left .eltd-main-menu {
+  width: auto;
+  padding: 0 0 0 20px;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-left .eltd-vertical-align-containers .eltd-position-left-inner {
+  height: 100%;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-center .eltd-vertical-align-containers .eltd-position-center-inner {
+  height: 100%;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-right .eltd-main-menu {
+  width: auto;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-right .eltd-vertical-align-containers .eltd-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical - Sliding style - begin
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-logo-wrapper {
+  z-index: 100;
+  display: block;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 18px;
+}
+
+.eltd-header-vertical-sliding .eltd-logo-wrapper a {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-logo-wrapper img {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding navigation style - begin
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener {
+  text-align: center;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-opener a {
+  display: inline-block;
+  position: relative;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer {
+  width: 20.5%;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  z-index: 1;
+  border-right: 1px solid #131313;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer.active {
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder {
+  background-color: #fff;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder .eltd-vertical-menu-holder-nav-inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 300px 0px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder nav.eltd-fullscreen-menu {
+  padding: 0 0 0 152px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-alignment-top .eltd-vertical-menu-nav-holder-outer .eltd-vertical-menu-nav-holder .eltd-vertical-menu-holder-nav-inner {
+  vertical-align: top;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu {
+  position: relative;
+  z-index: 101;
+  text-align: left;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul {
+  position: relative;
+  list-style-type: none;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul li {
+  text-align: left;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu > ul > li {
+  position: relative;
+  width: 220px;
+  text-align: left;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul li a {
+  color: #272727;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul li a .eltd-fullscreen-menu-arrow {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul li a:hover .eltd-fullscreen-menu-arrow {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -moz-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu > ul > li > a {
+  position: relative;
+  display: block;
+  line-height: 21px;
+  padding: 15px 0px;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer;
+  -webkit-transition: color 0.15s ease-out, text-decoration 0.15s ease-out, background-color 0.15s ease-out;
+  -moz-transition: color 0.15s ease-out, text-decoration 0.15s ease-out, background-color 0.15s ease-out;
+  transition: color 0.15s ease-out, text-decoration 0.15s ease-out, background-color 0.15s ease-out;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu > ul > li.open_sub > a {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu > ul > li.open_sub > a > .eltd-fullscreen-menu-arrow {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -moz-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu > ul > li > a > span.eltd-item-inner {
+  -webkit-transition: text-decoration 0.2s ease-out;
+  -moz-transition: text-decoration 0.2s ease-out;
+  transition: text-decoration 0.2s ease-out;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul > li.menu-item-has-children > a .plus {
+  width: 14px;
+  height: 14px;
+  z-index: 10000;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: #9d9d9d;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: 'ElegantIcons';
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul > li.menu-item-has-children > a .plus:before {
+  content: "\4c";
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul > li.menu-item-has-children.open > a .plus:before,
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul > li.menu-item-has-children.current-menu-ancestor > a .plus:before {
+  content: "\4b";
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu ul > li.menu-item-has-children a .plus {
+  display: none;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu .eltd-menu-second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  z-index: 997;
+}
+
+.eltd-header-vertical-sliding .eltd-fullscreen-menu .eltd-menu-icon:not(.blank):not(.null) {
+  padding-right: 5px;
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding navigation style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical - Sliding widget style - begin
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder {
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  bottom: 52px;
+  left: 170px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-icon-widget-holder .eltd-icon-text {
+  padding: 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-icon-widget-holder {
+  display: block;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget > div,
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget > a,
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-vertical-header-widget > span {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-social-icon-widget-holder {
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-area-widget-holder .eltd-social-icon-widget-holder:hover {
+  color: #000 !important;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-social-icon-widget-holder:hover {
+  color: #fff !important;
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding widget style - end
+   ========================================================================== */
+.eltd-header-vertical-sliding .eltd-content,
+.eltd-header-vertical-sliding footer {
+  padding-left: 80px;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area {
+  position: fixed;
+  width: 80px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  height: 100%;
+  z-index: 101;
+  -webkit-backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-area-inner {
+  position: relative;
+  height: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-area-background {
+  position: fixed;
+  width: 80px;
+  height: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: cover;
+  border-right: 1px solid #131313;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  -moz-transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 100px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.eltd-with-scroll {
+  overflow: hidden;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener .eltd-vm-circles {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 5px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener .eltd-vm-circles .eltd-vm-circle {
+  position: absolute;
+  top: 0;
+  height: 5px;
+  width: 5px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener .eltd-vm-circles .eltd-vm-circle.eltd-circle-1 {
+  left: 0;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener .eltd-vm-circles .eltd-vm-circle.eltd-circle-2 {
+  left: 10px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener .eltd-vm-circles .eltd-vm-circle.eltd-circle-3 {
+  left: 20px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener:hover .eltd-vm-circles .eltd-vm-circle.eltd-circle-1 {
+  left: 20px;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener:hover .eltd-vm-circles .eltd-vm-circle.eltd-circle-3 {
+  left: 0;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area .eltd-vertical-menu-opener .eltd-vm-close {
+  visibility: hidden;
+  font-size: 18px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.eltd-header-vertical-sliding.admin-bar .eltd-vertical-menu-area {
+  top: 33px;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened {
+  /* .eltd-vertical-area-background {
+			background-color: #000;
+			border-color: transparent;
+		}
+		
+		.eltd-logo-wrapper a {
+			
+			img.eltd-normal-logo {
+				opacity: 0;
+			}
+			
+			img.eltd-light-logo {
+				opacity: 1;
+			}
+		} */
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-vertical-menu-opener .eltd-vm-circles {
+  visibility: hidden;
+}
+
+.eltd-header-vertical-sliding .eltd-vertical-menu-area.opened .eltd-vertical-menu-opener .eltd-vm-close {
+  visibility: visible;
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical style - begin
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical navigation style - begin
+   ========================================================================== */
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu-outer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 100px 0;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu > ul {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-outer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 52px 0 31px;
+  padding: 0;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .item_outer {
+  position: relative;
+  display: block;
+  padding: 0 15px 0 0;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .eltd-menu-arrow {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  font-size: 17px;
+  line-height: inherit;
+  margin: 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -moz-transition: -moz-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .eltd-menu-featured-icon {
+  position: relative;
+  top: -4px;
+  left: 3px;
+  color: #0d0d0d;
+  font-size: 12px;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .menu_icon:not(.blank):not(.null) {
+  padding: 0 5px 0 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li.eltd-active-item > a:before,
+.eltd-header-vertical .eltd-vertical-menu ul li.current_page_item > a:before,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-item > a:before,
+.eltd-header-vertical .eltd-vertical-menu ul li.current-menu-ancestor > a:before {
+  opacity: 1;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul {
+  padding: 23px 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub > a .item_outer {
+  position: relative;
+  display: block;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub > a .item_outer:after {
+  position: absolute;
+  top: -1px;
+  right: 0;
+  margin: 0;
+  font-family: 'FontAwesome';
+  font-size: 17px;
+  line-height: inherit;
+  content: "\f105";
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub.current_page_item > a .item_outer:after,
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub.current-menu-ancestor > a .item_outer:after {
+  content: "\f107";
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 15px 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text {
+  position: relative;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  border-bottom: 1px solid currentColor;
+  -webkit-transition: width ease-out 350ms 50ms;
+  -moz-transition: width ease-out 350ms 50ms;
+  transition: width ease-out 350ms 50ms;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a.current span.item_text:after, .eltd-header-vertical .eltd-vertical-menu > ul > li > a:hover span.item_text:after {
+  width: 100%;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li.has_sub .eltd-menu-arrow {
+  display: inline-block;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second {
+  position: absolute;
+  top: -15px;
+  left: calc(100% + 47px);
+  /*because of the padding*/
+  width: 254px;
+  margin-left: 50px;
+  opacity: 0;
+  background-color: #272727;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second * {
+  visibility: hidden;
+  -webkit-transition: visibility 0.3s ease-in-out;
+  -moz-transition: visibility 0.3s ease-in-out;
+  transition: visibility 0.3s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second.eltd-float-open {
+  margin-left: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second.eltd-float-open * {
+  visibility: visible;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second.vertical_menu_start ul li ul,
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second.vertical_menu_start ul li ul * {
+  visibility: hidden;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second.vertical_menu_start ul li ul.eltd-float-open,
+.eltd-header-vertical .eltd-vertical-menu .menu-item .second.vertical_menu_start ul li ul.eltd-float-open * {
+  visibility: visible;
+  opacity: 1;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .eltd-menu-inner ul {
+  width: 100%;
+  padding: 23px 10px 25px;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu li.eltd-menu-narrow .second .eltd-menu-inner ul {
+  /*because of the .narrow styling*/
+  border: none;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul ul {
+  position: absolute;
+  border: none;
+  top: -15px;
+  left: 100%;
+  margin-left: 50px;
+  height: auto;
+  visibility: hidden;
+  width: 100%;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  background-color: #272727;
+  padding: 16px 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul ul.eltd-float-open {
+  opacity: 1;
+  margin-left: 0;
+  visibility: visible;
+  z-index: 900;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li a {
+  display: block;
+  text-align: left;
+  height: auto;
+  line-height: 21px;
+  color: #fff;
+  margin: 0;
+  padding: 8px 37px;
+  text-decoration: none;
+  position: relative;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li a .item_text {
+  position: relative;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li a .item_text:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  border-bottom: 1px solid #b6b6b6;
+  -webkit-transition: width ease-out 350ms;
+  -moz-transition: width ease-out 350ms;
+  transition: width ease-out 350ms;
+  -webkit-transition-delay: 50ms;
+  transition-delay: 50ms;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li a:hover .item_text:before {
+  width: 100%;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li.current-menu-item > a,
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li.current-menu-ancestor > a {
+  color: #fff;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li.current-menu-item > a:before,
+.eltd-header-vertical .eltd-vertical-menu .second .inner ul li.current-menu-ancestor > a:before {
+  opacity: 1;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .eltd-menu-arrow {
+  display: none;
+}
+
+.eltd-header-vertical .eltd-vertical-menu .second .eltd-menu-inner > ul > li > a .eltd-menu-icon {
+  -webkit-transition: color 0.15s ease-out;
+  -moz-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu > ul > li > a {
+  color: #fff !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu > ul > li > a {
+  color: #272727 !important;
+}
+
+/* ==========================================================================
+   Header Vertical navigation style - end
+   ========================================================================== */
+.eltd-header-vertical .eltd-vertical-area-widget-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 10px 0 0;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-area-widget-holder {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+
+.eltd-header-vertical.admin-bar .eltd-vertical-menu-area {
+  top: 32px;
+  height: calc(100% - 32px);
+}
+
+.eltd-header-vertical .eltd-content,
+.eltd-header-vertical footer {
+  padding-left: 310px;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 310px;
+  height: 100%;
+  padding: 90px 47px 10px 90px;
+  background-color: transparent;
+  outline: none;
+  z-index: 101;
+  -webkit-backface-visibility: hidden;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area.eltd-with-scroll {
+  overflow: hidden;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-left {
+  text-align: left;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-center {
+  text-align: center;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-center .eltd-logo-wrapper img {
+  margin: 0 auto;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper img {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.eltd-header-vertical .eltd-vertical-area-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 310px;
+  height: 100%;
+  background-color: #fff;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease, background-color 0.5s ease;
+  -moz-transition: opacity 0.5s ease, background-color 0.5s ease;
+  transition: opacity 0.5s ease, background-color 0.5s ease;
+}
+
+.eltd-header-vertical.eltd-header-vertical-shadow-disable .eltd-vertical-area-background {
+  box-shadow: none;
+}
+
+.eltd-header-vertical.eltd-header-vertical-border-disable .eltd-vertical-area-background {
+  border: none;
+}
+
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 1;
+}
+
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 0;
+}
+
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 1;
+}
+
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 0;
+}
+
+/* ==========================================================================
+   Header Vertical style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header style - begin
+   ========================================================================== */
+.eltd-mobile-header {
+  position: relative;
+  display: none;
+  z-index: 110;
+  /* #General mobile header styles
+    ========================================================================== */
+  /* #End of general mobile header styles
+   ========================================================================== */
+  /* #Mobile logo styles
+    ========================================================================== */
+  /* #End of mobile logo styles
+    ========================================================================== */
+  /* #Mobile menu opener styles
+    ========================================================================== */
+  /* #End of mobile menu opener styles
+    ========================================================================== */
+  /* #Mobile menu navigation styles
+    ========================================================================== */
+  /* #End of mobile menu navigation styles
+	========================================================================== */
+}
+
+.eltd-mobile-header .eltd-mobile-header-inner {
+  position: relative;
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 1px solid #131313;
+  box-sizing: border-box;
+}
+
+.eltd-mobile-header .eltd-mobile-header-inner .eltd-mobile-header-holder {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.eltd-mobile-header .eltd-grid {
+  height: 100%;
+}
+
+.eltd-mobile-header .eltd-vertical-align-containers {
+  padding: 0;
+}
+
+.eltd-mobile-header .eltd-mobile-logo-wrapper a {
+  display: block;
+}
+
+.eltd-mobile-header .eltd-mobile-logo-wrapper img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener {
+  position: relative;
+  height: 100%;
+  float: left;
+  z-index: 2;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a {
+  padding-right: 10px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-icon .eltd-mobile-header-circle {
+  position: absolute;
+  top: calc( 50% - 3px);
+  height: 6px;
+  width: 6px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-icon .eltd-mobile-header-circle.eltd-circle-1 {
+  left: 0;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-icon .eltd-mobile-header-circle.eltd-circle-2 {
+  left: 10px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-icon .eltd-mobile-header-circle.eltd-circle-3 {
+  left: 20px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-text {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener.eltd-mobile-menu-opened a {
+  color: #272727;
+}
+
+.eltd-mobile-header .eltd-mobile-nav {
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid #131313;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li a, .eltd-mobile-header .eltd-mobile-nav ul li h6 {
+  position: relative;
+  display: block;
+  padding: 9px 0;
+  margin: 0;
+  color: #272727;
+  border-bottom: 1px solid #131313;
+  cursor: pointer;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li a:hover, .eltd-mobile-header .eltd-mobile-nav ul li h6:hover {
+  color: #272727;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul {
+  display: none;
+  margin-left: 15px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-ancestor > a,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-item > a,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-ancestor > h6,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-item > h6 {
+  color: #272727;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul li a, .eltd-mobile-header .eltd-mobile-nav ul ul li h6 {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li > a,
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li > h6 {
+  padding-left: 4px;
+  font-size: 13px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > a,
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > h6 {
+  color: #272727;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 50px;
+  height: 100%;
+  padding-right: 12px;
+  font-size: 15px;
+  line-height: inherit;
+  text-align: right;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow:hover {
+  cursor: pointer;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow .eltd-sub-arrow {
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow .fa-angle-down {
+  display: none;
+}
+
+.eltd-mobile-header .eltd-mobile-nav li.eltd-opened > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav > ul > li:last-child > a,
+.eltd-mobile-header .eltd-mobile-nav > .eltd-grid > ul > li:last-child > a {
+  border-bottom: none;
+}
+
+/* ==========================================================================
+   Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky Mobile header style - begin
+   ========================================================================== */
+.eltd-sticky-up-mobile-header .eltd-animate-mobile-header .eltd-mobile-header-inner {
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  -moz-transition: -moz-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+}
+
+.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.eltd-sticky-up-mobile-header.admin-bar .mobile-header-appear .eltd-mobile-header-inner {
+  -webkit-transform: translateY(32px);
+  -moz-transform: translateY(32px);
+  transform: translateY(32px);
+}
+
+/* ==========================================================================
+   Sticky Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header style - begin
+   ========================================================================== */
+.eltd-sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -moz-transition: -moz-transform 0.6s ease;
+  transition: transform 0.6s ease;
+}
+
+.eltd-sticky-header .eltd-grid {
+  height: 100% !important;
+}
+
+.eltd-sticky-header.header-appear {
+  transform: translateY(0%);
+}
+
+.eltd-sticky-header .eltd-sticky-holder {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  background-color: #fff;
+  border-bottom: 1px solid #131313;
+  box-sizing: border-box;
+}
+
+.eltd-sticky-header .eltd-sticky-holder .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.eltd-sticky-header .eltd-sticky-holder .eltd-logo-wrapper a {
+  max-height: 70px;
+}
+
+.admin-bar .eltd-sticky-header.header-appear {
+  top: 32px;
+}
+
+.eltd-sticky-header .eltd-position-center-inner,
+.eltd-sticky-header .eltd-position-right-inner {
+  height: 100%;
+}
+
+.eltd-sticky-header .eltd-sticky-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-sticky-header .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Sticky header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header style - begin
+   ========================================================================== */
+.eltd-top-bar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 46px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  background-color: #0d0d0d;
+  z-index: 111;
+  box-sizing: border-box;
+}
+
+.eltd-top-bar > .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.eltd-top-bar .eltd-grid {
+  height: 100%;
+}
+
+.eltd-top-bar .eltd-grid .eltd-vertical-align-containers {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.eltd-top-bar-in-grid-padding .eltd-top-bar .eltd-grid .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.eltd-top-bar .widget {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Top header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=header-map.css.map */

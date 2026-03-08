@@ -1,0 +1,1191 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-banner-holder .eltd-banner-text-inner .eltd-banner-text {
+    font-size: 50px;
+  }
+  .eltd-banner-holder .eltd-banner-text-inner.eltd-info-bottom .eltd-banner-text {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-banner-holder .eltd-banner-text-inner .eltd-banner-text {
+    font-size: 35px;
+  }
+  .eltd-banner-holder .eltd-banner-text-inner.eltd-info-bottom .eltd-banner-text {
+    font-size: 35px;
+  }
+}
+
+/* ==========================================================================
+   Button shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltd-btn.eltd-btn-large, .eltd-btn.eltd-btn-huge {
+    padding: 6px 70px;
+  }
+}
+
+/* ==========================================================================
+   Button shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Call To Action shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .eltd-call-to-action-holder .eltd-grid {
+    width: 1100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltd-call-to-action-holder.eltd-three-quarters-columns .eltd-cta-text-holder, .eltd-call-to-action-holder.eltd-four-fifths-columns .eltd-cta-text-holder {
+    width: 66.66666666666667%;
+  }
+  .eltd-call-to-action-holder.eltd-three-quarters-columns .eltd-cta-button-holder, .eltd-call-to-action-holder.eltd-four-fifths-columns .eltd-cta-button-holder {
+    width: 33.33333333333333%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-call-to-action-holder.eltd-normal-layout .eltd-cta-inner,
+  .eltd-call-to-action-holder.eltd-normal-layout .eltd-cta-text-holder,
+  .eltd-call-to-action-holder.eltd-normal-layout .eltd-cta-button-holder {
+    display: block;
+  }
+  .eltd-call-to-action-holder.eltd-normal-layout .eltd-cta-button-holder {
+    margin: 28px 0 0;
+    text-align: initial;
+  }
+  .eltd-call-to-action-holder.eltd-two-halves-columns .eltd-cta-text-holder,
+  .eltd-call-to-action-holder.eltd-two-halves-columns .eltd-cta-button-holder, .eltd-call-to-action-holder.eltd-two-thirds-columns .eltd-cta-text-holder,
+  .eltd-call-to-action-holder.eltd-two-thirds-columns .eltd-cta-button-holder, .eltd-call-to-action-holder.eltd-three-quarters-columns .eltd-cta-text-holder,
+  .eltd-call-to-action-holder.eltd-three-quarters-columns .eltd-cta-button-holder, .eltd-call-to-action-holder.eltd-four-fifths-columns .eltd-cta-text-holder,
+  .eltd-call-to-action-holder.eltd-four-fifths-columns .eltd-cta-button-holder {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Call To Action shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Countdown shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltd-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-countdown .countdown-row.countdown-show4 .countdown-section, .eltd-countdown .countdown-row.countdown-show5 .countdown-section, .eltd-countdown .countdown-row.countdown-show6 .countdown-section {
+    width: 33.33333333333333%;
+  }
+  .eltd-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 40px;
+  }
+}
+
+/* ==========================================================================
+   Countdown shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Custom Font shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltd-custom-font-holder.eltd-disable-title-break br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Custom Font shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Elements Holder shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-two-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-three-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-four-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-five-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-six-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-one-column-alignment-left .eltd-eh-item .eltd-eh-item-content {
+    text-align: left;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-one-column-alignment-right .eltd-eh-item .eltd-eh-item-content {
+    text-align: right;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1280.eltd-one-column-alignment-center .eltd-eh-item .eltd-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-two-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-three-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-four-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-five-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-six-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-one-column-alignment-left .eltd-eh-item .eltd-eh-item-content {
+    text-align: left;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-one-column-alignment-right .eltd-eh-item .eltd-eh-item-content {
+    text-align: right;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-1024.eltd-one-column-alignment-center .eltd-eh-item .eltd-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-two-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-three-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-four-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-five-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-six-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-one-column-alignment-left .eltd-eh-item .eltd-eh-item-content {
+    text-align: left;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-one-column-alignment-right .eltd-eh-item .eltd-eh-item-content {
+    text-align: right;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-768.eltd-one-column-alignment-center .eltd-eh-item .eltd-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-two-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-three-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-four-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-five-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-six-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-one-column-alignment-left .eltd-eh-item .eltd-eh-item-content {
+    text-align: left;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-one-column-alignment-right .eltd-eh-item .eltd-eh-item-content {
+    text-align: right;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-680.eltd-one-column-alignment-center .eltd-eh-item .eltd-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-two-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-three-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-four-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-five-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-six-columns .eltd-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-one-column-alignment-left .eltd-eh-item .eltd-eh-item-content {
+    text-align: left;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-one-column-alignment-right .eltd-eh-item .eltd-eh-item-content {
+    text-align: right;
+  }
+  .eltd-elements-holder.eltd-responsive-mode-480.eltd-one-column-alignment-center .eltd-eh-item .eltd-eh-item-content {
+    text-align: center;
+  }
+  .eltd-elements-holder .eltd-eh-item-content {
+    padding: 0 10px;
+  }
+}
+
+/* ==========================================================================
+   Elements Holder shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Glide Slider shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1366px) {
+  .swiper-container.eltd-glide-slider.full-page .swiper-navigation .swiper-slide-numbering {
+    bottom: 83px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .swiper-container.eltd-glide-slider.full-page .swiper-navigation .swiper-slide-numbering {
+    bottom: 27px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper-container.eltd-glide-slider.full-page .swiper-navigation .swiper-slide-numbering {
+    bottom: 59px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .swiper-container.eltd-glide-slider.full-page .swiper-navigation .swiper-slide-numbering {
+    bottom: 16px;
+    right: 0;
+  }
+}
+
+/* ==========================================================================
+   Glide Slider shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Google Map shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-google-map-overlay {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Google Map shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Image Gallery shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1281px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image:nth-child(6n+1) {
+    clear: none;
+  }
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-grid-sizer {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-five-columns .eltd-ig-image {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-five-columns .eltd-ig-image:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-grid-sizer {
+    width: 25%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 50%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-grid-sizer {
+    width: 25%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-five-columns .eltd-ig-image {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-five-columns .eltd-ig-image:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-four-columns .eltd-ig-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-two-columns .eltd-ig-image:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-three-columns .eltd-ig-image:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-four-columns .eltd-ig-image:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-grid-sizer {
+    width: 33.33333%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 66.66667%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-grid-sizer {
+    width: 33.33333%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 66.66667%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-four-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-four-columns .eltd-ig-grid-sizer {
+    width: 50%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-four-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-five-columns .eltd-ig-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-five-columns .eltd-ig-image:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-three-columns .eltd-ig-image {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-grid-sizer {
+    width: 50%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-grid-sizer {
+    width: 50%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-three-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-three-columns .eltd-ig-grid-sizer {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-three-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-two-columns .eltd-ig-image {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-three-columns .eltd-ig-image {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-four-columns .eltd-ig-image {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-five-columns .eltd-ig-image {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-grid.eltd-ig-six-columns .eltd-ig-image {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-two-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-two-columns .eltd-ig-grid-sizer {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-two-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-three-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-three-columns .eltd-ig-grid-sizer {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-three-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-four-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-four-columns .eltd-ig-grid-sizer {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-four-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-grid-sizer {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-five-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image,
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-grid-sizer {
+    width: 100%;
+  }
+  .eltd-image-gallery .eltd-ig-masonry.eltd-ig-six-columns .eltd-ig-image.eltd-large-masonry-item {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Image Gallery shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Interactive link showcase shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-ils .eltd-ils-holder .eltd-ils-image-holder {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-ils .eltd-ils-holder .eltd-ils-image-holder .eltd-ils-item-image {
+    display: block;
+    position: relative;
+    opacity: 1;
+  }
+  .eltd-ils .eltd-ils-holder .eltd-ils-image-holder .eltd-ils-item-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-ils .eltd-ils-holder .eltd-ils-content-holder {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .eltd-ils .eltd-ils-holder .eltd-ils-content-holder .eltd-ils-content-table .eltd-ils-content-table-cell {
+    padding: 5% 55% 0 10%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltd-ils .eltd-ils-item-link:after {
+    border-bottom-width: 10px;
+    bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-ils .eltd-ils-item-link:after {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-ils .eltd-ils-item-link:after {
+    bottom: 25px;
+    border-bottom-width: 3px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-ils .eltd-ils-item-link:after {
+    bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-ils .eltd-ils-item-content-copy {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .eltd-ils .eltd-ils-holder .eltd-ils-content-holder .eltd-ils-item-content {
+    margin: 0;
+  }
+  .eltd-ils .eltd-ils-holder .eltd-ils-content-holder .eltd-ils-item-content .eltd-ils-item-text-holder .eltd-ils-item-text {
+    margin: 23px 0;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-ils .eltd-ils-holder .eltd-ils-content-holder .eltd-ils-item-content {
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-ils .eltd-ils-item-content-copy .eltd-ils-item-number-holder {
+    width: 9%;
+  }
+  .eltd-ils .eltd-ils-item-content-copy .eltd-ils-item-text-holder .eltd-ils-item-text {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-ils .eltd-ils-item-content-copy .eltd-ils-item-number-holder {
+    width: 16%;
+  }
+  .eltd-ils .eltd-ils-item-content-copy .eltd-ils-item-text-holder {
+    width: 80%;
+  }
+  .eltd-ils .eltd-ils-item-content-copy .eltd-ils-item-text-holder .eltd-ils-item-text {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Interactive link showcase shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Item Showcase shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltd-item-showcase-holder .eltd-is-image {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    margin-top: 0 !important;
+  }
+  .eltd-item-showcase-holder .eltd-is-image img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .eltd-item-showcase-holder .eltd-is-item-holder.eltd-is-left-holder, .eltd-item-showcase-holder .eltd-is-item-holder.eltd-is-right-holder {
+    float: right;
+    width: 50%;
+    padding: 0 0 0 50%;
+  }
+  .eltd-item-showcase-holder .eltd-is-item-holder.eltd-is-right-holder {
+    margin: 36px 0 0;
+  }
+  .eltd-item-showcase-holder .eltd-is-item {
+    margin: 36px 0 0;
+  }
+  .eltd-item-showcase-holder .eltd-is-item.eltd-is-left {
+    text-align: left;
+  }
+  .eltd-item-showcase-holder .eltd-is-item.eltd-is-left .eltd-is-content {
+    padding: 0 0 0 20px;
+  }
+  .eltd-item-showcase-holder .eltd-is-item:not(.eltd-appeared) {
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    transform: translateX(-40px);
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-item-showcase-holder .eltd-is-image {
+    display: none;
+  }
+  .eltd-item-showcase-holder .eltd-is-item-holder.eltd-is-left-holder, .eltd-item-showcase-holder .eltd-is-item-holder.eltd-is-right-holder {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .eltd-item-showcase-holder .eltd-is-item {
+    opacity: 1;
+    -webkit-transform: translateX(0) translateY(0) !important;
+    -moz-transform: translateX(0) translateY(0) !important;
+    transform: translateX(0) translateY(0) !important;
+  }
+  .eltd-item-showcase-holder .eltd-is-item.eltd-is-left .eltd-is-content, .eltd-item-showcase-holder .eltd-is-item.eltd-is-right .eltd-is-content {
+    padding: 0;
+  }
+}
+
+/* ==========================================================================
+   Item Showcase shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Pricing Tables shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-pricing-tables.eltd-four-columns .eltd-price-table {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 681px) {
+  .eltd-pricing-tables.eltd-four-columns .eltd-price-table:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-pricing-tables.eltd-five-columns .eltd-price-table {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 681px) {
+  .eltd-pricing-tables.eltd-five-columns .eltd-price-table:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-pricing-tables.eltd-three-columns .eltd-price-table {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-pricing-tables .eltd-price-table {
+    width: 100% !important;
+  }
+}
+
+/* ==========================================================================
+   Pricing Tables shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Process shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-process-holder.eltd-responsive-1280 .eltd-mark-horizontal-holder {
+    display: none;
+  }
+  .eltd-process-holder.eltd-responsive-1280 .eltd-mark-vertical-holder {
+    display: block;
+  }
+  .eltd-process-holder.eltd-responsive-1280 .eltd-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .eltd-process-holder.eltd-responsive-1280 .eltd-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-process-holder.eltd-responsive-1024 .eltd-mark-horizontal-holder {
+    display: none;
+  }
+  .eltd-process-holder.eltd-responsive-1024 .eltd-mark-vertical-holder {
+    display: block;
+  }
+  .eltd-process-holder.eltd-responsive-1024 .eltd-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .eltd-process-holder.eltd-responsive-1024 .eltd-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-process-holder.eltd-responsive-768 .eltd-mark-horizontal-holder {
+    display: none;
+  }
+  .eltd-process-holder.eltd-responsive-768 .eltd-mark-vertical-holder {
+    display: block;
+  }
+  .eltd-process-holder.eltd-responsive-768 .eltd-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .eltd-process-holder.eltd-responsive-768 .eltd-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-process-holder.eltd-responsive-680 .eltd-mark-horizontal-holder {
+    display: none;
+  }
+  .eltd-process-holder.eltd-responsive-680 .eltd-mark-vertical-holder {
+    display: block;
+  }
+  .eltd-process-holder.eltd-responsive-680 .eltd-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .eltd-process-holder.eltd-responsive-680 .eltd-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-process-holder.eltd-responsive-480 .eltd-mark-horizontal-holder {
+    display: none;
+  }
+  .eltd-process-holder.eltd-responsive-480 .eltd-mark-vertical-holder {
+    display: block;
+  }
+  .eltd-process-holder.eltd-responsive-480 .eltd-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .eltd-process-holder.eltd-responsive-480 .eltd-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+/* ==========================================================================
+   Process shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Section Title shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-section-title-holder.eltd-st-two-columns {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-section-title-holder {
+    padding: 0 !important;
+  }
+  .eltd-section-title-holder.eltd-st-two-columns .eltd-st-title,
+  .eltd-section-title-holder.eltd-st-two-columns .eltd-st-text {
+    width: 100%;
+    float: none !important;
+    text-align: initial !important;
+  }
+  .eltd-section-title-holder.eltd-st-two-columns .eltd-st-text {
+    margin: 14px 0 0;
+  }
+  .eltd-section-title-holder.eltd-st-disable-title-break .eltd-st-title br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Split Section responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-ss-holder.eltd-ss-break-1280.eltd-ss-image-right .eltd-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .eltd-ss-holder.eltd-ss-break-1280 .eltd-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .eltd-ss-holder.eltd-ss-break-1280 .eltd-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .eltd-ss-holder.eltd-ss-break-1280 .eltd-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-ss-holder.eltd-ss-break-1024.eltd-ss-image-right .eltd-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .eltd-ss-holder.eltd-ss-break-1024 .eltd-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .eltd-ss-holder.eltd-ss-break-1024 .eltd-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .eltd-ss-holder.eltd-ss-break-1024 .eltd-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-ss-holder.eltd-ss-break-768.eltd-ss-image-right .eltd-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .eltd-ss-holder.eltd-ss-break-768 .eltd-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .eltd-ss-holder.eltd-ss-break-768 .eltd-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .eltd-ss-holder.eltd-ss-break-768 .eltd-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-ss-holder.eltd-ss-break-680.eltd-ss-image-right .eltd-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .eltd-ss-holder.eltd-ss-break-680 .eltd-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .eltd-ss-holder.eltd-ss-break-680 .eltd-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .eltd-ss-holder.eltd-ss-break-680 .eltd-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-ss-holder.eltd-ss-break-480.eltd-ss-image-right .eltd-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .eltd-ss-holder.eltd-ss-break-480 .eltd-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .eltd-ss-holder.eltd-ss-break-480 .eltd-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .eltd-ss-holder.eltd-ss-break-480 .eltd-ss-image img {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Split Section responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Tabs shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-tabs.eltd-tabs-standard .eltd-tabs-nav li a {
+    padding: 7px 21px;
+  }
+  .eltd-tabs.eltd-tabs-boxed .eltd-tabs-nav li {
+    margin: 0 8px 0 0;
+  }
+  .eltd-tabs.eltd-tabs-boxed .eltd-tabs-nav li a {
+    padding: 7px 18px;
+  }
+  .eltd-tabs.eltd-tabs-simple .eltd-tabs-nav li {
+    margin: 0 26px 0 0;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tabs-nav {
+    width: 180px;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tab-container {
+    width: calc(100% - 180px);
+    padding: 0 0 0 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-tabs.eltd-tabs-standard .eltd-tabs-nav li {
+    display: block;
+    float: none;
+  }
+  .eltd-tabs.eltd-tabs-standard .eltd-tabs-nav li a {
+    width: 100%;
+  }
+  .eltd-tabs.eltd-tabs-boxed .eltd-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 8px;
+  }
+  .eltd-tabs.eltd-tabs-boxed .eltd-tabs-nav li a {
+    width: 100%;
+  }
+  .eltd-tabs.eltd-tabs-simple .eltd-tabs-nav li {
+    margin: 0 20px 0 0;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tabs-nav,
+  .eltd-tabs.eltd-tabs-vertical .eltd-tab-container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tabs-nav {
+    border-right: 0;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tabs-nav li {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tab-container {
+    padding: 31px 0 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-tabs.eltd-tabs-simple .eltd-tabs-nav {
+    padding: 0 0 20px;
+  }
+  .eltd-tabs.eltd-tabs-simple .eltd-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .eltd-tabs.eltd-tabs-simple .eltd-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .eltd-tabs.eltd-tabs-vertical .eltd-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Tabs shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  body.eltd-vss-initialized {
+    overflow-y: visible !important;
+    height: auto !important;
+  }
+  .eltd-vertical-split-slider,
+  #multiscroll-nav {
+    display: none;
+  }
+  .eltd-vss-responsive {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/eltd-core/assets/css/shortcodes-map-responsive.css.map */

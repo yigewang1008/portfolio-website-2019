@@ -1,0 +1,308 @@
+/* ==========================================================================
+   Blog responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Blog Masonry general style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns .eltd-blog-masonry-grid-sizer {
+    width: 25%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width-height {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns .eltd-blog-masonry-grid-sizer {
+    width: 33.33333%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width-height {
+    width: 66.66667%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns .eltd-blog-masonry-grid-sizer {
+    width: 33.33333%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width-height {
+    width: 66.66667%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns .eltd-blog-masonry-grid-sizer {
+    width: 50%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article.eltd-post-size-large-width-height {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns .eltd-blog-masonry-grid-sizer {
+    width: 50%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width-height {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns .eltd-blog-masonry-grid-sizer {
+    width: 50%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns .eltd-blog-masonry-grid-sizer {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-two-columns article.eltd-post-size-large-width-height {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns .eltd-blog-masonry-grid-sizer {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-three-columns article.eltd-post-size-large-width-height {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns .eltd-blog-masonry-grid-sizer {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-four-columns article.eltd-post-size-large-width-height {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article,
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns .eltd-blog-masonry-grid-sizer {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width, .eltd-blog-holder.eltd-blog-type-masonry.eltd-blog-five-columns article.eltd-post-size-large-width-height {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Blog Masonry general style - end
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltd-related-posts-holder .eltd-related-post {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-related-posts-holder .eltd-related-post {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-blog-holder.eltd-blog-single article .eltd-post-info-bottom .eltd-post-info-bottom-left,
+  .eltd-blog-holder.eltd-blog-single article .eltd-post-info-bottom .eltd-post-info-bottom-right {
+    width: 100%;
+    float: none;
+  }
+  .eltd-blog-holder.eltd-blog-single article .eltd-post-info-bottom .eltd-post-info-bottom-right {
+    text-align: inherit;
+    margin: 10px 0 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .single-post .eltd-blog-fullwidth-featured-image {
+    height: 740px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .single-post .eltd-blog-fullwidth-featured-image {
+    height: 500px;
+  }
+}
+
+/* ==========================================================================
+   Blog List shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-grid-sizer {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-four-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-four-columns .eltd-bl-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-four-columns .eltd-bl-item:nth-child(3n+1), .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-four-columns .eltd-bl-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-five-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-five-columns .eltd-bl-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-five-columns .eltd-bl-item:nth-child(3n+1), .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-five-columns .eltd-bl-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-grid-sizer {
+    width: 33.33333%;
+  }
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-grid-sizer {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-three-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-three-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-three-columns .eltd-bl-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-three-columns .eltd-bl-item:nth-child(2n+1), .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-three-columns .eltd-bl-item:nth-child(2n+1), .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-three-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-four-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-four-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-four-columns .eltd-bl-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-four-columns .eltd-bl-item:nth-child(2n+1), .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-four-columns .eltd-bl-item:nth-child(2n+1), .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-four-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-five-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-five-columns .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-five-columns .eltd-bl-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-blog-list-holder.eltd-bl-standard.eltd-bl-five-columns .eltd-bl-item:nth-child(2n+1), .eltd-blog-list-holder.eltd-bl-boxed.eltd-bl-five-columns .eltd-bl-item:nth-child(2n+1), .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-five-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-three-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-three-columns .eltd-bl-grid-sizer {
+    width: 50%;
+  }
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-grid-sizer {
+    width: 50%;
+  }
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-grid-sizer {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-three-columns .eltd-bl-item {
+    width: 100% !important;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-three-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-four-columns .eltd-bl-item {
+    width: 100% !important;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-four-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-five-columns .eltd-bl-item {
+    width: 100% !important;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 681px) {
+  .eltd-blog-list-holder.eltd-bl-minimal.eltd-bl-five-columns .eltd-bl-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-blog-list-holder.eltd-bl-standard .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-boxed .eltd-bl-item, .eltd-blog-list-holder.eltd-bl-minimal .eltd-bl-item {
+    width: 100% !important;
+  }
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-two-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-two-columns .eltd-bl-grid-sizer {
+    width: 100%;
+  }
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-three-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-three-columns .eltd-bl-grid-sizer {
+    width: 100%;
+  }
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-four-columns .eltd-bl-grid-sizer {
+    width: 100%;
+  }
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-item,
+  .eltd-blog-list-holder.eltd-bl-masonry.eltd-bl-five-columns .eltd-bl-grid-sizer {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Blog List shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog Slider shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-blog-slider-holder.eltd-bs-carousel-centered .active.center .eltd-item-text-wrapper {
+    opacity: 1;
+  }
+}
+
+/* ==========================================================================
+   Blog Slider shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Blog responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=blog-map-responsive.css.map */

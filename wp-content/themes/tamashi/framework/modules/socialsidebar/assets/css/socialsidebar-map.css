@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Socialsidebar styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+.eltd-social-sidebar-holder {
+  position: fixed;
+  right: 36px;
+  top: calc( 50% + 15px);
+  z-index: 199;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: transform 0.4s;
+  -moz-transition: transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.eltd-social-sidebar-holder > a {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: #272727;
+  display: block;
+  margin: 0 0 28px;
+}
+
+.eltd-social-sidebar-holder > a > span {
+  position: relative;
+}
+
+.eltd-social-sidebar-holder > a > span:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  border-bottom: 1px solid currentColor;
+  -webkit-transition: width ease-out 300ms;
+  -moz-transition: width ease-out 300ms;
+  transition: width ease-out 300ms;
+}
+
+.eltd-social-sidebar-holder > a:hover > span:after {
+  width: 100%;
+}
+
+.eltd-social-sidebar-holder.eltd-social-sidebar-light span {
+  color: #fff !important;
+}
+
+/* ==========================================================================
+   Socialsidebar styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=socialsidebar-map.css.map */

@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Footer responsive styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Footer responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-3 {
+    width: 50%;
+    float: left;
+  }
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-3:nth-child(2n+1) {
+    clear: both;
+  }
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-3:nth-child(3), .eltd-page-footer .eltd-column-content.eltd-grid-col-3:nth-child(4) {
+    margin-top: 30px;
+  }
+  .eltd-page-footer .eltd-column-content.eltd-grid-col-4 {
+    width: 33.33333333333333%;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-page-footer .eltd-custom-footer-column.eltd-grid-col-2 {
+    width: 50%;
+    float: left;
+  }
+  .eltd-page-footer .eltd-custom-footer-column.eltd-grid-col-2:nth-child(3) {
+    clear: both;
+  }
+  .eltd-page-footer .eltd-custom-footer-column.eltd-grid-col-2 .widget {
+    margin-bottom: 30px !important;
+  }
+  .eltd-page-footer .eltd-custom-footer-column.eltd-grid-col-6 {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltd-page-footer .eltd-column-content:not(:first-child) {
+    margin-top: 30px;
+  }
+  .eltd-page-footer .eltd-footer-top-holder .eltd-footer-top-inner.eltd-grid {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .eltd-page-footer .eltd-custom-footer-column.eltd-grid-col-2 {
+    width: 100%;
+    float: none;
+  }
+  .eltd-page-footer .eltd-custom-footer-column.eltd-grid-col-2 .widget {
+    margin-bottom: 30px !important;
+  }
+  .eltd-page-footer .eltd-custom-footer-column.eltd-grid-col-6 {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Footer responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=footer-map-responsive.css.map */

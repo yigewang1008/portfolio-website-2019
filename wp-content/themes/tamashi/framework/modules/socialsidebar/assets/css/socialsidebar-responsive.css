@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Socialsidebar responsive styles - begin
+   ========================================================================== */
+/* Button mixins - start */
+/* Button mixins - end */
+/* ==========================================================================
+   Social sidebar responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .eltd-social-sidebar-holder {
+    left: -65px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-social-sidebar-holder {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Social sidebar responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Socialsidebar responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/socialsidebar-responsive.css.map */
